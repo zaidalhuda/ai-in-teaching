@@ -5,11 +5,9 @@
 
 A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy-paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
 
-> Tip: Put this file at the root of your repo as `README.md`. Add an `/assets` folder later for screenshots or banners.
-
 ---
 
-## Quick Start (10 minutes)
+## Quick Start
 
 1) **Pick one main assistant** you’ll use this term  
    Recommended: [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)
@@ -26,14 +24,14 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 
 ## Contents
 
-- [Module 1 — Responsible, Human-Centred AI Use](#module-1--responsible-humancentred-ai-use)  
-- [Module 2 — Choose & Configure Your Assistant](#module-2--choose--configure-your-assistant)  
-- [Module 3 — Prompting Patterns (Cheatsheet + Library)](#module-3--prompting-patterns-cheatsheet--library)  
-- [Module 4 — Lesson Planning (Workflow + Examples)](#module-4--lesson-planning-workflow--examples)  
-- [Module 5 — Assessment, Integrity & AI Levels](#module-5--assessment-integrity--ai-levels)  
-- [Module 6 — Accessibility & Inclusive Design](#module-6--accessibility--inclusive-design)  
-- [Module 7 — Data Privacy & Risk (per major)](#module-7--data-privacy--risk-per-major)  
-- [Module 8 — Custom Course Assistant (Optional)](#module-8--custom-course-assistant-optional)  
+- [Module 1 - Responsible, Human-Centred AI Use](#module-1--responsible-humancentred-ai-use)  
+- [Module 2 - Choose & Configure Your Assistant](#module-2--choose--configure-your-assistant)  
+- [Module 3 - Prompting Patterns (Cheatsheet + Library)](#module-3--prompting-patterns-cheatsheet--library)  
+- [Module 4 - Lesson Planning (Workflow + Examples)](#module-4--lesson-planning-workflow--examples)  
+- [Module 5 - Assessment, Integrity & AI Levels](#module-5--assessment-integrity--ai-levels)  
+- [Module 6 - Accessibility & Inclusive Design](#module-6--accessibility--inclusive-design)  
+- [Module 7 - Data Privacy & Risk (per major)](#module-7--data-privacy--risk-per-major)  
+- [Module 8 - Custom Course Assistant (Optional)](#module-8--custom-course-assistant-optional)  
 - [Tools by Major](#tools-by-major)  
 - [Assignments by Major (Templates)](#assignments-by-major-templates)  
 - [Capstone Ideas by Major](#capstone-ideas-by-major)  
@@ -48,7 +46,7 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 
 ---
 
-## Module 1 — Responsible, Human-Centred AI Use
+## Module 1 - Responsible, Human-Centred AI Use
 
 **Principles**
 - Keep **human agency** central; AI assists learning but does not replace it.
@@ -57,7 +55,7 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 - Do **not** upload personal or student-identifiable data into public tools.
 - **Policy note (Stirling):** Set expectations by assignment; require students to **acknowledge AI use** and submit **process evidence** where AI is allowed.
 
-**Class AI Use Agreement (Syllabus snippet — copy/adapt)**  
+**Class AI Use Agreement (Syllabus snippet - copy/adapt)**  
 > **Purpose**: AI supports brainstorming, drafting, practice, and feedback; it does **not** replace critical thinking or original work.  
 > **Allowed**: ideation, outlines, feedback on clarity, language refinement; tool-based practice (see major-specific allowances below).  
 > **Limited**: summarising sources *with citations*; code or design suggestions that require human review.  
@@ -66,12 +64,9 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 > **Equity**: Non-AI routes are available for every required task.  
 > **Review**: Policy will be revisited mid-semester.
 
-**(Optional) 中文课程声明（可直接粘贴到教学大纲）**  
-> 生成式 AI 可用于构思、提纲、练习与语言润色，但**不能**替代独立思考与原创工作。请勿上传任何可识别学生身份的信息；如使用 AI，请在作业末尾添加“AI 协助说明”。为不使用 AI 的同学提供等效的人类方案。
-
 ---
 
-## Module 2 — Choose & Configure Your Assistant
+## Module 2 - Choose & Configure Your Assistant
 
 Pick one: [ChatGPT](https://chat.openai.com/), [Claude](https://claude.ai/), [Gemini](https://gemini.google.com/), or [Perplexity](https://www.perplexity.ai/). Then configure it:
 
@@ -88,7 +83,7 @@ Never request or process PII. Offer differentiated outputs (basic/standard/chall
 
 ---
 
-## Module 3 — Prompting Patterns (Cheatsheet + Library)
+## Module 3 - Prompting Patterns (Cheatsheet + Library)
 
 **Prompt Skeleton**
 ```
@@ -124,7 +119,7 @@ Make 10 Socratic questions leading students from intuition to formal reasoning a
 
 ---
 
-## Module 4 — Lesson Planning (Workflow + Examples)
+## Module 4 - Lesson Planning (Workflow + Examples)
 
 **Outcome-first workflow (≈60 minutes)**
 1) Paste outcomes + week topic → ask for an active learning plan with checks for understanding.  
@@ -134,31 +129,31 @@ Make 10 Socratic questions leading students from intuition to formal reasoning a
 
 ### Examples by Major
 
-**Data Science — Week 4: Supervised Learning & Overfitting**  
+**Data Science - Week 4: Supervised Learning & Overfitting**  
 - *Activities*: mini-lab fitting a small model, **error analysis walk-through**, and a **hold-out vs. CV** comparison.  
 - *Materials*: 300/600-word reading on bias-variance with 10-term glossary.  
 - *Exit ticket*: 3 items on leakage, validation strategy, and metric trade-offs.
 
-**Digital Media — Week 5: Storyboarding for Short-Form Video**  
+**Digital Media - Week 5: Storyboarding for Short-Form Video**  
 - *Activities*: group storyboard challenge with **shot list templates**, AI-generated alternative angles, and peer critique rubric.  
 - *Materials*: mood boards and script beat-sheet; accessibility note (captions/alt text).  
 - *Exit ticket*: upload storyboard + 100-word creative rationale.
 
-**Sports — Week 3: Intro to Performance Analytics**  
+**Sports - Week 3: Intro to Performance Analytics**  
 - *Activities*: small data exploration of match events; **KPIs vs. context** discussion; practice creating a **shot map** or **sprint profile**.  
 - *Materials*: glossary (EN/中文) for common metrics; privacy/ethics mini-brief.  
 - *Exit ticket*: pick one KPI, justify why it is **valid** and **actionable** for a coach.
 
 ---
 
-## Module 5 — Assessment, Integrity & AI Levels
+## Module 5 - Assessment, Integrity & AI Levels
 
 **AI Levels (set per assignment)**
-1) **No AI** — closed-book quizzes, in-class derivations/orals.  
-2) **AI limited** — outlines/brainstorming allowed; final text/code/design is student-authored.  
-3) **AI permitted** — drafting with AI allowed; submit **process evidence** (prompts, outputs, change log).  
-4) **AI partner** — co-creation; grade prompt quality, verification, and reflection.  
-5) **AI toolchain** — complex projects; grade planning, tool orchestration, and decisions.
+1) **No AI** - closed-book quizzes, in-class derivations/orals.  
+2) **AI limited** - outlines/brainstorming allowed; final text/code/design is student-authored.  
+3) **AI permitted** - drafting with AI allowed; submit **process evidence** (prompts, outputs, change log).  
+4) **AI partner** - co-creation; grade prompt quality, verification, and reflection.  
+5) **AI toolchain** - complex projects; grade planning, tool orchestration, and decisions.
 
 **Integrity without detectors**
 - Collect **process artifacts** (drafts, prompt history, version diffs).  
@@ -180,7 +175,7 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 
 ---
 
-## Module 7 — Data Privacy & Risk (per major)
+## Module 7 - Data Privacy & Risk (per major)
 
 > **Minimums:** Prefer privacy-preserving workflows, clear consent, and **opt-out** paths. For higher-risk uses, pilot small and monitor.
 
@@ -201,7 +196,7 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 
 ---
 
-## Module 8 — Custom Course Assistant (Optional)
+## Module 8 - Custom Course Assistant (Optional)
 
 - Upload materials you **own** or can share: syllabus, outcomes, rubrics, exemplar answers (teacher-only), misconceptions, bilingual glossary.  
 - Keep it **private**; disclose to students; always provide a **non-AI alternative**.
@@ -314,16 +309,16 @@ Propose an ethics checklist for collecting and analysing athlete performance dat
 ## Capstone Ideas by Major
 
 **Data Science**
-1) **Campus Energy Forecasting** — time-series models for building energy; optimisation suggestions with uncertainty ranges.  
-2) **Student Support Early Signals** — privacy-preserving risk flagging with explainable baselines; fairness checks.
+1) **Campus Energy Forecasting** - time-series models for building energy; optimisation suggestions with uncertainty ranges.  
+2) **Student Support Early Signals** - privacy-preserving risk flagging with explainable baselines; fairness checks.
 
 **Digital Media**
-1) **Interactive Museum Guide** — multilingual micro-stories and AR wayfinding prototypes; accessibility by design.  
-2) **Local Business Creative Suite** — brand system + templates + short-form content pack; licensing audit.
+1) **Interactive Museum Guide** - multilingual micro-stories and AR wayfinding prototypes; accessibility by design.  
+2) **Local Business Creative Suite** - brand system + templates + short-form content pack; licensing audit.
 
 **Sports**
-1) **Performance Insights Toolkit** — open-data dashboards (shot maps, press intensity) with coach-friendly briefs.  
-2) **Injury-Risk Communication Guide** — literature synthesis + prototype of **non-stigmatizing** decision aids for staff.
+1) **Performance Insights Toolkit** - open-data dashboards (shot maps, press intensity) with coach-friendly briefs.  
+2) **Injury-Risk Communication Guide** - literature synthesis + prototype of **non-stigmatizing** decision aids for staff.
 
 ---
 
@@ -368,16 +363,6 @@ Score candidate tools (1–5):
 
 ---
 
-## Implementation Timeline (Faculty PD)
-
-**Week 0** — Share this guide; pick one assistant; gather outcomes.  
-**Week 1** — Publish AI Use Statement; 45-min prompting workshop.  
-**Week 2** — Pilot one AI-supported lesson per major; collect feedback.  
-**Week 3** — Adjust policy; design one assessment with explicit AI level.  
-**Week 4+** — Build a small prompt library per module; consider a private course assistant.
-
----
-
 ## Custom GPT Instruction Template
 
 Paste into your assistant’s “system/instructions”:
@@ -411,12 +396,6 @@ Formatting defaults:
 
 ---
 
-## FAQ
-**Should we use AI detectors?** Use with caution; rely on process evidence and oral checks instead.  
-**Can students upload data to tools?** Avoid PII; use approved platforms; anonymise when possible.  
-**How to grade AI-assisted work?** Make permissions explicit; grade reasoning, evidence, reflection; require an AI note.
-
----
 
 ## Rubrics (Download & Adapt)
 
@@ -424,13 +403,6 @@ Formatting defaults:
 - **Digital Media**: [CSV](/mnt/data/rubric_digital_media.csv) · [Markdown](/mnt/data/rubric_digital_media.md)  
 - **Sports**: [CSV](/mnt/data/rubric_sports.csv) · [Markdown](/mnt/data/rubric_sports.md)
 
-> Tip: Place these files in a `/rubrics` folder in your repo. You can also import the CSVs into Google Sheets or Excel and tweak weights/wording per assignment.
-
----
-
-## Contributing & License
-Pull requests welcome (major-specific examples, prompt libraries, labs).  
-License: **CC BY 4.0** unless otherwise noted.
 
 ---
 
