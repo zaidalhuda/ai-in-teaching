@@ -5,11 +5,9 @@
 
 A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy-paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
 
-> Tip: Put this file at the root of your repo as `README.md`. Add an `/assets` folder later for screenshots or banners.
-
 ---
 
-## Quick Start (10 minutes)
+## Quick Start
 
 1) **Pick one main assistant** you’ll use this term  
    Recommended: [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)
@@ -62,9 +60,6 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 > **Credit**: Include an “AI Assistance” note in submissions.  
 > **Equity**: Non-AI routes are available for every required task.  
 > **Review**: Policy will be revisited mid-semester.
-
-**(Optional) 中文课程声明（可直接粘贴到教学大纲）**  
-> 生成式 AI 可用于构思、提纲、练习与语言润色，但**不能**替代独立思考与原创工作。请勿上传任何可识别学生身份的信息；如使用 AI，请在作业末尾添加“AI 协助说明”。为不使用 AI 的同学提供等效的人类方案。
 
 ---
 
@@ -417,9 +412,9 @@ Formatting defaults:
 
 ## Rubrics (Download & Adapt)
 
-- **Data Science**: [CSV](/mnt/data/rubric_data_science.csv) · [Markdown](/mnt/data/rubric_data_science.md)
-- **Digital Media**: [CSV](/mnt/data/rubric_digital_media.csv) · [Markdown](/mnt/data/rubric_digital_media.md)
-- **Sports**: [CSV](/mnt/data/rubric_sports.csv) · [Markdown](/mnt/data/rubric_sports.md)
+- **Data Science**: [CSV](rubrics/rubric_data_science.csv) · [Markdown](rubrics/rubric_data_science.md)
+- **Digital Media**: [CSV](rubrics/rubric_digital_media.csv) · [Markdown](rubrics/rubric_digital_media.md)
+- **Sports**: [CSV](rubrics/rubric_sports.csv) · [Markdown](rubrics/rubric_sports.md)
 
 > Tip: Place these files in a `/rubrics` folder in your repo. You can also import the CSVs into Google Sheets or Excel and tweak weights/wording per assignment.
 
