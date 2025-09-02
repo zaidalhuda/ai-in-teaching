@@ -1,0 +1,7 @@
+Criterion,Level 4 (Excellent),Level 3 (Proficient),Level 2 (Developing),Level 1 (Beginning),Weight
+Problem Framing,Clear statement; correct assumptions; aligned to outcomes,Mostly clear; minor gaps,Vague statement; some misalignment,Unclear; off-topic,15%
+Data Handling & Ethics,"Cleaned, documented; privacy respected; sources cited",Minor issues; generally ethical,Gaps in cleaning or documentation,Risky handling; missing citations,15%
+Baseline & Modeling,Strong baselines; justified model choice,Adequate baselines; some justification,Weak baselines; limited rationale,No baselines; unjustified choice,20%
+Evaluation & Validity,Sound metrics; leakage avoided; limits discussed,Mostly sound; minor leakage risks,Metric mismatch; superficial discussion,Invalid metrics; leakage present,20%
+Interpretation & Communication,Correct insights; clear visuals; audience-appropriate,Minor interpretation issues,Overstated claims; unclear visuals,Incorrect or unsupported claims,20%
+Process Evidence & Reflection,Complete prompts/drafts; thoughtful reflection,Most artifacts present; basic reflection,Sparse artifacts; superficial reflection,No artifacts; no reflection,10%
