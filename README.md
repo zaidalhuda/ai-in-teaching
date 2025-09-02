@@ -525,7 +525,7 @@ For each AI tool, evaluate:
 
 ---
 
-## Module 8 - Custom Course Assistant (Optional)
+## Module 8 - Custom Course Assistant
 
 - Upload materials you **own** or can share: syllabus, outcomes, rubrics, exemplar answers (teacher-only), misconceptions, bilingual glossary.  
 - Keep it **private**; disclose to students; always provide a **non-AI alternative**.
