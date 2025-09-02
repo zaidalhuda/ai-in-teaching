@@ -31,7 +31,7 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 - [Module 5 - Assessment, Integrity & AI Levels](#module-5--assessment-integrity--ai-levels)  
 - [Module 6 - Accessibility & Inclusive Design](#module-6--accessibility--inclusive-design)  
 - [Module 7 - Data Privacy & Risk (per major)](#module-7--data-privacy--risk-per-major)  
-- [Module 8 - Custom Course Assistant (Optional)](#module-8--custom-course-assistant-optional)  
+- [Module 8 - Custom Course Assistant ](#module-8--custom-course-assistant-optional)  
 - [Tools by Major](#tools-by-major)  
 - [Assignments by Major (Templates)](#assignments-by-major-templates)  
 - [Capstone Ideas by Major](#capstone-ideas-by-major)  
