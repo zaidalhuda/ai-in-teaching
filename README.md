@@ -227,8 +227,8 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 
 **Sports**  
 - **Analysis**: [Tableau Public](https://public.tableau.com/), [Power BI](https://powerbi.microsoft.com/), [Python](https://www.python.org/) ([pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/)), [R](https://www.r-project.org/) ([tidyverse](https://www.tidyverse.org/))  
-- **Video tagging**: [LongoMatch](https://www.longomatch.com/), [Kinovea](https://www.kinovea.org/) (motion review)  
-- **Open data**: [StatsBomb open data](https://statsbomb.com/resources/), [FiveThirtyEight](https://fivethirtyeight.com/) archives (for teaching)  
+- **Video tagging**: [LongoMatch](https://longomatch.com/en/), [Kinovea](https://www.kinovea.org/) (motion review)  
+- **Open data**: [StatsBomb open data](https://statsbomb.com/), [FiveThirtyEight](https://data.fivethirtyeight.com/) archives (for teaching)  
 - **Pose/vision (advanced)**: OpenPose/MediaPipe (for labs with consented, public videos)
 
 > Always check institutional approvals and licenses before using external tools with students.
