@@ -1,829 +1,757 @@
-![AI in Teaching Banner](banner.svg)
+# AI in Teaching: A Comprehensive Guide for Educators
+**Transform your classroom with responsible AI integration**
 
-# AI in Teaching @ Stirling College (Chengdu University)
-**Majors focus:** Data Science · Digital Media · Sports
-
-A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy-paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
+A practical, step-by-step guide to help teachers across all subjects use AI responsibly and effectively. Everything is organized with concrete examples, copy-paste prompts, and classroom-ready activities.
 
 ---
 
-## Quick Start
+## Quick Start Guide
 
-1) **Pick one main assistant** you'll use this term  
+1) **Choose Your Primary AI Assistant**  
    Recommended: [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)
 
-2) **Publish a short Class AI Use Agreement** (template below)  
-   Clarify where AI is **allowed / limited / not allowed**, how to **acknowledge AI**, and privacy basics.
+2) **Create Your AI Use Policy** (template provided below)  
+   Define where AI is **allowed**, **limited**, or **prohibited**
 
-3) **Pilot one AI-supported lesson** this week (Module 4)  
-   Use AI for ideation, materials, and differentiation - then **verify** and **cite** sources.
+3) **Start with One AI-Enhanced Lesson** this week  
+   Use AI for planning, materials creation, and differentiation
 
-> **Stirling alignment:** Focus on academic integrity, transparency about AI use, and process evidence—detectors are unreliable; use oral checks and artifacts instead.
+4) **Focus on Process Over Product**  
+   Teach students to think critically about AI outputs, not just consume them
 
 ---
 
 ## Contents
 
-- [Module 1 - Responsible, Human-Centred AI Use](#module-1--responsible-humancentred-ai-use)  
-- [Module 2 - Choose & Configure Your Assistant](#module-2--choose--configure-your-assistant)  
-- [Module 3 - Prompting Patterns (Cheatsheet + Library)](#module-3--prompting-patterns-cheatsheet--library)  
-- [Module 4 - Lesson Planning (Workflow + Examples)](#module-4--lesson-planning-workflow--examples)  
-- [Module 5 - Assessment, Integrity & AI Levels](#module-5--assessment-integrity--ai-levels)  
-- [Module 6 - Accessibility & Inclusive Design](#module-6--accessibility--inclusive-design)  
-- [Module 7 - Data Privacy & Risk (per major)](#module-7--data-privacy--risk-per-major)  
-- [Module 8 - Custom Course Assistant](#module-8--custom-course-assistant-optional)  
-- [Module 9 - Advanced Prompting Techniques](#module-9--advanced-prompting-techniques)
-- [Tools by Major](#tools-by-major)   
-- [Custom GPT Instruction Template](#custom-gpt-instruction-template)  
-- [Acknowledging AI Assistance](#acknowledging-ai-assistance)   
-- [References](#references)
+- [Module 1 - Responsible AI Integration](#module-1--responsible-ai-integration)
+- [Module 2 - Choose & Configure Your AI Assistant](#module-2--choose--configure-your-ai-assistant)
+- [Module 3 - Essential Prompting Strategies](#module-3--essential-prompting-strategies)
+- [Module 4 - Lesson Planning with AI](#module-4--lesson-planning-with-ai)
+- [Module 5 - Assessment & Academic Integrity](#module-5--assessment--academic-integrity)
+- [Module 6 - Teaching AI Literacy](#module-6--teaching-ai-literacy)
+- [Module 7 - Ethical Considerations & Safety](#module-7--ethical-considerations--safety)
+- [Module 8 - AI Tools Directory](#module-8--ai-tools-directory)
+- [Module 9 - Ready-to-Use Prompts Library](#module-9--ready-to-use-prompts-library)
+- [Module 10 - Custom GPT Creation](#module-10--custom-gpt-creation)
 
 ---
 
-## Module 1 - Responsible, Human-Centred AI Use
+## Module 1 - Responsible AI Integration
 
-**Principles**
-- Keep **human agency** central; AI assists learning but does not replace it.
-- Provide **opt-outs** and alternative human paths for any AI-enabled activity.
-- Be transparent about **capabilities, limits, bias, and verification**.
-- Do **not** upload personal or student-identifiable data into public tools.
-- **Policy note (Stirling):** Set expectations by assignment; require students to **acknowledge AI use** and submit **process evidence** where AI is allowed.
+### Core Principles
+- **Human-Centered**: AI assists learning but never replaces critical thinking
+- **Transparent**: Always disclose AI use to students and colleagues
+- **Equitable**: Provide non-AI alternatives for all activities
+- **Ethical**: Respect privacy, avoid bias, and verify information
+- **Educational**: Focus on learning enhancement, not task completion
 
-**Class AI Use Agreement (Syllabus snippet - copy/adapt)**  
-> **Purpose**: AI supports brainstorming, drafting, practice, and feedback; it does **not** replace critical thinking or original work.  
-> **Allowed**: ideation, outlines, feedback on clarity, language refinement; tool-based practice (see major-specific allowances below).  
-> **Limited**: summarising sources *with citations*; code or design suggestions that require human review.  
-> **Not allowed**: final graded work written by AI; uploading assessment briefs or student PII to public tools.  
-> **Credit**: Include an "AI Assistance" note in submissions.  
-> **Equity**: Non-AI routes are available for every required task.  
-> **Review**: Policy will be revisited mid-semester.
+### Sample Classroom AI Policy
 
----
-
-## Module 2 - Choose & Configure Your Assistant
-
-Pick one: [ChatGPT](https://chat.openai.com/), [Claude](https://claude.ai/), [Gemini](https://gemini.google.com/), or [Perplexity](https://www.perplexity.ai/). Then configure it:
-
-- Set **audience/level** ("first-year", "capstone"), **format defaults** (tables, bullet lists), and **tone**.  
-- Add a **profile prompt** that states your course context, output format, and a requirement for **sources + limitations note** in teacher outputs.  
-- For technical courses, enable **code-friendly** responses (markdown code blocks). For digital media, allow **style constraints**. For sports, request **ethics/privacy reminders**.
-
-### **Why Claude for Education?**
-
-Claude excels at:
-- **Long-form content creation** - detailed lesson plans, comprehensive rubrics, extensive reading materials
-- **Document analysis** - reviewing student work, analyzing research papers, processing course materials
-- **Iterative refinement** - multi-turn conversations to perfect lesson plans and assignments
-- **Structured outputs** - consistent formatting for syllabi, rubrics, and assessment materials
-- **Code review and debugging** - particularly strong for Data Science courses
-- **Ethical reasoning** - built-in consideration of bias, fairness, and responsible AI use
-- **Citation accuracy** - better at providing and formatting proper academic citations
-- **Multi-language support** - helpful for bilingual glossaries and international students
-
-**Profile prompt (copy-edit)**
-```
-You are a teaching assistant for [course] in the [Data Science / Digital Media / Sports] major at Stirling College (Chengdu University).
-Default outputs: clear headings, bullet points, tables when useful. Provide sources/links for factual claims and a brief "limitations & bias" note for teacher-facing material.
-Never request or process PII. Offer differentiated outputs (basic/standard/challenge). When generating code or design prompts, add a verification checklist.
-For iterative tasks: Ask if I want to refine any specific aspect before moving to the next step.
-```
+> **AI Use Agreement for [Your Class]**
+> 
+> **Purpose**: AI supports brainstorming, feedback, and learning - not thinking replacement.
+> 
+> **✅ Allowed**: 
+> - Brainstorming and idea generation
+> - Grammar and clarity checking
+> - Creating practice problems
+> - Explaining difficult concepts
+> - Generating discussion questions
+> 
+> **⚠️ Limited** (with acknowledgment):
+> - Research assistance with citation requirements
+> - Outline creation for original work
+> - Language translation support
+> 
+> **❌ Not Allowed**:
+> - Completing assignments for you
+> - Writing final submissions without significant human input
+> - Uploading personal information to AI tools
+> 
+> **Citation Required**: Include "AI Assistance: [Tool name] used for [specific purpose]"
 
 ---
 
-## Module 3 - Prompting Patterns (Cheatsheet + Library)
+## Module 2 - Choose & Configure Your AI Assistant
 
-**Prompt Skeleton**
-```
-Role: You are a [subject] lecturer helping [level] students at Stirling College.
-Task: [create X], aligned to [module outcomes].
-Audience/Tone: [plain, accessible, bilingual if needed].
-Constraints: [time limit, word count, sources to cite, local examples].
-Non-goals: [what to avoid].
-Quality checks: [fact-check, add limitations/bias note].
-Output format: [markdown/slide outline/table/code block/storyboard].
-```
+### Why Claude for Education?
+- **Long-form content creation**: Detailed lesson plans and comprehensive materials
+- **Document analysis**: Review student work and process course materials
+- **Ethical reasoning**: Built-in consideration of bias and responsible use
+- **Citation accuracy**: Better at providing proper academic references
+- **Code review**: Strong debugging capabilities for technical subjects
 
-**Reusable techniques**
-- **Few-shot style** (paste a short example to copy voice/format)  
-- **Generate-facts → Answer** (facts list first, then response)  
-- **Critique & improve** (ask for a critique pass, then revision)  
-- **Self-consistency** (ask for 3 variants, then a final merged version)
-- **Chain-of-thought** (ask AI to show reasoning steps)
-- **Role-playing** (AI takes perspective of student, industry expert, etc.)
-
-### **Expanded Prompt Library**
-
-**General Teaching Prompts**
-
-1) **90-min lesson outline**  
+### Configuration Prompt Template
 ```
-Create a 90-minute lesson on [topic] aligned to [outcomes] with timings, activities, checks for understanding, materials, and an exit ticket.
-Differentiate tasks (basic/standard/challenge). Provide sources and a short "limitations & bias" note for teachers.
-Include: 5-min warm-up, 3 main activities with transitions, formative assessment checkpoints, and wrap-up reflection.
-```
-
-2) **Socratic questions**  
-```
-Create 10 Socratic questions that guide students from intuitive understanding to formal reasoning about [concept]. 
-Start with accessible, real-world connections and progress to abstract principles.
-Include common misconceptions students might reveal through their answers.
-Format as a progression: Questions 1-3 (activate prior knowledge), 4-7 (explore concept), 8-10 (synthesize and apply).
-```
-
-3) **Quiz + rationales**  
-```
-Create a 6-question mixed assessment (MCQ + short answer) on [topic] with:
-- Complete answer key with 1-sentence rationales
-- Bloom's taxonomy tags for each question
-- Common wrong answers and why students choose them
-- Estimated time per question
-- Differentiated follow-up questions for different performance levels
-```
-
-**Assessment & Feedback Prompts**
-
-4) **Rubric generator**
-```
-Create a detailed rubric for [assignment type] with:
-- 4 performance levels (Exemplary, Proficient, Developing, Beginning)
-- 5-6 criteria relevant to [learning outcomes]
-- Specific, observable descriptors for each cell
-- Point values and total scoring guide
-- Self-assessment version for students
-Include a "limitations & bias check" noting what this rubric might miss or unfairly emphasize.
-```
-
-5) **Personalized feedback generator**
-```
-Based on this assignment description: [paste assignment]
-And these learning outcomes: [paste outcomes]
-Create a template for giving constructive feedback that includes:
-- 2 specific strengths to celebrate
-- 1 area for growth with concrete next steps
-- 1 question to promote deeper thinking
-- Connection to course/program goals
-Keep feedback encouraging and growth-focused.
-```
-
-6) **Peer review activity designer**
-```
-Design a structured peer review activity for [assignment] including:
-- Clear instructions for reviewers (what to look for, how to give feedback)
-- Review worksheet with specific questions
-- Protocol for giving and receiving feedback
-- Reflection questions for original authors
-- Time allocation and classroom management tips
-Make it work for [class size] students in [time limit].
-```
-
-**Differentiation & Accessibility Prompts**
-
-7) **Multi-level content creator**
-```
-Take this core concept: [concept]
-Create three versions:
-- Foundation level: Essential understanding with concrete examples
-- Standard level: Full concept with applications
-- Extension level: Advanced connections and analysis
-Each version should achieve the same learning outcome but through different pathways.
-Include assessment criteria for each level.
-```
-
-8) **Universal design lesson adapter**
-```
-Adapt this lesson plan: [paste lesson] for students with diverse needs:
-- Visual learners: diagrams, color coding, visual organizers
-- Auditory learners: discussion, audio resources, verbal processing
-- Kinesthetic learners: hands-on activities, movement, manipulation
-- Students with attention challenges: chunk activities, built-in breaks
-- English language learners: vocabulary support, visual aids, peer translation opportunities
-Maintain the same learning objectives throughout.
-```
-
-**Engagement & Activity Prompts**
-
-9) **Interactive activity generator**
-```
-Create an engaging 15-minute activity for [topic] that:
-- Gets all students actively participating (not just volunteers)
-- Checks understanding of [specific concept]
-- Works in [classroom setup - lecture hall/lab/flexible space]
-- Requires minimal prep and materials
-- Includes a clear debrief/connection to broader learning
-Provide step-by-step instructions and troubleshooting tips.
-```
-
-10) **Real-world connection maker**
-```
-For the topic [academic concept], create:
-- 3 current, relevant real-world examples from different industries
-- 1 local/regional case study relevant to our students
-- Discussion questions connecting theory to practice
-- Brief background context students need to understand each example
-- Potential career connections for [major] students
-```
-
-**Subject-Specific Prompts by Major**
-
-**Data Science Prompts**
-
-11) **Dataset exploration guide**
-```
-Create a guided exploration worksheet for [dataset name/type] that helps students:
-- Ask good initial questions about the data
-- Identify potential data quality issues
-- Formulate 3 hypotheses they could test
-- Consider ethical implications of the data collection/use
-- Plan appropriate visualizations
-Include Python/R code snippets for common exploration tasks.
-Include a "bias check" - what might this dataset be missing or overrepresenting?
-```
-
-12) **Model explanation activity**
-```
-Design an activity where students explain [ML algorithm] to different audiences:
-- 5-year-old version (core intuition)
-- Business stakeholder version (practical value, limitations)
-- Technical peer version (mathematical foundation, parameters)
-- Ethics board version (potential biases, failure modes)
-Include evaluation criteria for each explanation type.
-```
-
-13) **Code review checklist generator**
-```
-Create a code review checklist for [assignment type - data cleaning/modeling/visualization] including:
-- Technical correctness criteria
-- Code style and documentation standards
-- Reproducibility requirements
-- Ethical considerations (bias, privacy, fairness)
-- Performance and efficiency markers
-Format as a student self-check and peer review tool.
-```
-
-**Digital Media Prompts**
-
-14) **Creative brief generator**
-```
-Create a professional creative brief template for [project type] including:
-- Client/audience analysis sections
-- Technical specifications and constraints
-- Style and tone guidelines
-- Deliverables checklist
-- Timeline and milestone markers
-- Budget/resource considerations
-- Success metrics and evaluation criteria
-Make it industry-realistic but student-appropriate.
-```
-
-15) **Design critique framework**
-```
-Develop a structured critique protocol for [media type] projects that covers:
-- Visual/aesthetic elements (composition, color, typography)
-- Technical execution quality
-- Conceptual strength and originality
-- Audience appropriateness and accessibility
-- Ethical considerations (representation, copyright, cultural sensitivity)
-Include sentence starters to help students give constructive feedback.
-```
-
-16) **Portfolio development guide**
-```
-Create a step-by-step guide for students building their [media type] portfolio:
-- Project selection criteria (diversity, quality, growth demonstration)
-- Presentation format recommendations
-- Artist statement template
-- Technical documentation requirements
-- Professional presentation tips
-- Industry standards and expectations
-- Online portfolio platform comparison
-```
-
-**Sports Analytics/Management Prompts**
-
-17) **Performance analysis framework**
-```
-Design an analysis framework for [sport] performance that includes:
-- Key performance indicators (KPIs) hierarchy
-- Data collection methods and tools
-- Statistical analysis approaches
-- Visualization recommendations
-- Contextual factors to consider (weather, opposition, stakes)
-- Ethical guidelines for athlete data use
-- Communication strategies for coaches vs. athletes vs. management
-```
-
-18) **Case study analyzer**
-```
-Create a case study analysis template for sports management scenarios covering:
-- Stakeholder identification and interests
-- Ethical considerations and conflicts
-- Data privacy and consent issues
-- Performance vs. wellbeing trade-offs
-- Communication and decision-making processes
-- Alternative solutions evaluation
-- Implementation and monitoring plans
-Include real examples from [specific sport/context].
-```
-
-**Research & Source Integration Prompts**
-
-19) **Literature review organizer**
-```
-Help students organize research on [topic] by creating:
-- Research question refinement guide
-- Source evaluation criteria (credibility, relevance, recency)
-- Citation and note-taking templates
-- Synthesis frameworks for connecting multiple sources
-- Gap identification strategies
-- Bias detection questions for sources
-- Academic writing integration techniques
-```
-
-20) **Fact-checking and verification guide**
-```
-Create a verification checklist for students evaluating [content type]:
-- Source credibility indicators
-- Cross-reference strategies
-- Red flags for misinformation
-- Primary vs. secondary source identification
-- Statistical claim evaluation
-- Expert consensus determination
-- Update recency and relevance
-Include practice examples with verified answers.
+You are a teaching assistant for [subject/grade level].
+Context: [Brief description of your teaching context]
+Default outputs: Clear headings, bullet points, tables when useful
+Always provide: Sources for factual claims, limitations notes for complex topics
+Never: Request or process personally identifiable information
+Format preferences: [Specify your preferred output format]
+Special considerations: [Any subject-specific needs]
 ```
 
 ---
 
-## Module 4 - Lesson Planning (Workflow + Examples)
+## Module 3 - Essential Prompting Strategies
 
-**Outcome-first workflow (≈60 minutes)**
-1) Paste outcomes + week topic → ask for an active learning plan with checks for understanding.  
-2) Generate materials: slides outline, short reading, exit ticket.  
-3) Differentiate: create basic/standard/challenge variants and a multilingual glossary.  
-4) Verification pass: require links; manually spot-check and adapt to local context.
+### The Prompting Framework
 
-### Enhanced Lesson Planning with Claude
-
-**Iterative Lesson Development Process**
 ```
-1. Initial concept generation:
-"Create a lesson outline for [topic] targeting [outcomes]. Include timing, key activities, and assessment points."
-
-2. Material development:
-"Now create supporting materials for this lesson: 
-- Slide outline with key points
-- 300-word reading with comprehension questions  
-- Hands-on activity with clear instructions
-- Exit ticket with 3 questions"
-
-3. Differentiation:
-"Adapt these materials for three learning levels. Ensure all students can achieve the core outcomes through different pathways."
-
-4. Refinement:
-"Review this lesson plan for potential barriers to learning. Suggest improvements for engagement, accessibility, and assessment."
+TASK: [What you want created - be specific]
+CONTEXT: [Background information the AI needs]
+AUDIENCE: [Who will use this - grade level, ability]
+FORMAT: [How you want it structured]
+CONSTRAINTS: [Limitations - time, word count, etc.]
+EXAMPLES: [Show desired style if helpful]
 ```
 
-### Examples by Major
+### 12 Key Prompting Tips
+1. **Start simple, then iterate** - Test small, add context only when needed
+2. **Lead with clear action verbs** - write, classify, summarize, analyze
+3. **Be specific about constraints** - word count, format, audience level
+4. **Break complex tasks into steps** - Chain subtasks for better results
+5. **Show don't tell** - Include 1-2 examples to anchor format
+6. **Control output format** - Specify lists, headings, tables, JSON
+7. **Use positive instructions** - Say what to do, not what to avoid
+8. **Separate sections clearly** - Use ### to divide instruction/context/input
+9. **Mind your prompt length** - Include only details that help the task
+10. **Validate before finishing** - Ask AI to check requirements
+11. **Reuse winning patterns** - Keep a library of effective prompts
+12. **Avoid vague language** - Replace "good" with specific criteria
 
-**Data Science - Week 4: Supervised Learning & Overfitting**  
-- *Activities*: mini-lab fitting a small model, **error analysis walk-through**, and a **hold-out vs. CV** comparison.  
-- *Materials*: 300/600-word reading on bias-variance with 10-term glossary.  
-- *Exit ticket*: 3 items on leakage, validation strategy, and metric trade-offs.
+### Prompting Techniques
 
-**Digital Media - Week 5: Storyboarding for Short-Form Video**  
-- *Activities*: group storyboard challenge with **shot list templates**, AI-generated alternative angles, and peer critique rubric.  
-- *Materials*: mood boards and script beat-sheet; accessibility note (captions/alt text).  
-- *Exit ticket*: upload storyboard + 100-word creative rationale.
+**Zero-Shot**: Give clear instruction without examples
+```
+"Create a 5-question quiz on photosynthesis for 8th grade students."
+```
 
-**Sports - Week 3: Intro to Performance Analytics**  
-- *Activities*: small data exploration of match events; **KPIs vs. context** discussion; practice creating a **shot map** or **sprint profile**.  
-- *Materials*: glossary (EN/中文) for common metrics; privacy/ethics mini-brief.  
-- *Exit ticket*: pick one KPI, justify why it is **valid** and **actionable** for a coach.
+**Few-Shot**: Provide 1-3 examples to establish pattern
+```
+"Create discussion questions following this pattern:
+Example: 'How does the author's use of imagery in paragraph 3 support the main theme?'
+Now create 3 similar questions for chapters 4-6."
+```
+
+**Chain-of-Thought**: Ask for step-by-step reasoning
+```
+"Explain how to solve this math problem step by step, showing your reasoning at each stage."
+```
 
 ---
 
-## Module 5 - Assessment, Integrity & AI Levels
+## Module 4 - Lesson Planning with AI
 
-**AI Levels (set per assignment)**
-1) **No AI** - closed-book quizzes, in-class derivations/orals.  
-2) **AI limited** - outlines/brainstorming allowed; final text/code/design is student-authored.  
-3) **AI permitted** - drafting with AI allowed; submit **process evidence** (prompts, outputs, change log).  
-4) **AI partner** - co-creation; grade prompt quality, verification, and reflection.  
-5) **AI toolchain** - complex projects; grade planning, tool orchestration, and decisions.
+### 60-Minute Lesson Planning Workflow
 
-**Integrity without detectors**
-- Collect **process artifacts** (drafts, prompt history, version diffs).  
-- Use **micro-vivas** (1–3 minutes) to confirm understanding.  
-- Localise tasks (datasets, assets, campus context) to reduce generic outputs.
-
-### **Enhanced Assessment Strategies with Claude**
-
-**Process Documentation Templates**
+1. **Generate Core Structure** (10 minutes)
 ```
-For AI-permitted assignments, students submit:
-1. Initial brainstorming (human-generated)
-2. AI conversation transcript with prompts used
+Create a 50-minute lesson plan for [topic] targeting [grade level].
+Include: 5-min hook, 15-min direct instruction, 20-min guided practice, 
+8-min independent work, 2-min closure.
+Learning objective: Students will [specific measurable goal].
+```
+
+2. **Create Supporting Materials** (20 minutes)
+```
+For the lesson above, create:
+- Slide outline with key points (10 slides max)
+- 3 guided practice problems with solutions
+- Independent practice worksheet (5 questions)
+- Exit ticket with 2 questions
+```
+
+3. **Add Differentiation** (15 minutes)
+```
+Adapt the lesson materials for three levels:
+- Approaching: Simplified vocabulary, additional scaffolding
+- On-level: Standard complexity
+- Advanced: Extension activities, deeper analysis
+```
+
+4. **Review and Refine** (15 minutes)
+- Check alignment with learning objectives
+- Verify factual accuracy
+- Ensure age-appropriate content
+- Add local context and examples
+
+### Subject-Specific Examples
+
+**English Language Arts**
+```
+Create a 45-minute lesson on analyzing character development in [novel].
+Include: Text evidence practice, character trait sorting activity,
+and discussion questions that promote critical thinking.
+Grade level: [X]. Learning goal: Identify how authors reveal character.
+```
+
+**Mathematics**
+```
+Design a lesson introducing quadratic equations for Algebra 1.
+Include: Real-world problem hook, step-by-step solving method,
+guided practice with 4 problems, and common mistake prevention.
+Time: 50 minutes.
+```
+
+**Science**
+```
+Create a hands-on lesson on chemical reactions for 7th grade.
+Include: Safe demonstration, observation sheet, hypothesis formation,
+and connection to molecular theory. Duration: 45 minutes.
+```
+
+**Social Studies**
+```
+Develop a lesson on [historical event] with primary source analysis.
+Include: Document examination protocol, perspective comparison chart,
+and discussion questions connecting past to present. Grade: [X].
+```
+
+---
+
+## Module 5 - Assessment & Academic Integrity
+
+### AI Assignment Levels
+
+**Level 1 - No AI**: Closed-book assessments, in-class work, oral presentations
+**Level 2 - AI Planning**: Brainstorming and outlining allowed, final work is student-created
+**Level 3 - AI Collaboration**: AI assistance permitted with full disclosure of use
+**Level 4 - AI Partnership**: Co-creation encouraged, focus on prompt quality and iteration
+**Level 5 - AI Mastery**: Complex projects requiring tool orchestration and evaluation
+
+### Integrity Strategies (Beyond Detection)
+
+**Process Documentation**
+```
+For AI-assisted assignments, students submit:
+1. Initial brainstorm (human-generated)
+2. AI conversation transcript
 3. Draft outputs from AI
-4. Student revisions and rationale
+4. Student revisions with rationale
 5. Final submission with change log
-6. Reflection on AI collaboration experience
+6. Reflection on collaboration
 ```
 
-**Micro-Viva Question Banks**
-Create question sets that verify student understanding:
-- **Concept explanation**: "Explain [key concept] in your own words"
-- **Application**: "How would you apply this in [different context]?"
-- **Troubleshooting**: "What would you do if [common problem]?"
-- **Justification**: "Why did you choose [specific approach/solution]?"
+**Micro-Assessment Questions**
+- "Explain this concept in your own words"
+- "What would happen if we changed [variable]?"
+- "How does this connect to what we learned yesterday?"
+- "Walk me through your thinking process"
 
----
+### Assessment Prompt Templates
 
-## Module 6 - Accessibility & Inclusive Design
-
-- Generate bilingual glossaries, plain-language versions, and reading/listening alternatives.  
-- Ask AI to draft **alt text**, **captions**, and **transcripts** (then review).  
-- Offer multiple means of action/expression: code, essay, presentation, prototype.
-
-**Enhanced Accessibility Prompts**
-
-**Alt-Text Prompt**
+**Rubric Generator**
 ```
-Write concise alt text (≤125 chars) for an image of [describe]. Include the learning focus (what students should notice).
-Consider: What information is essential for understanding? What decorative elements can be omitted?
+Create a 4-level rubric for [assignment type] with these criteria:
+[List 4-6 key criteria]
+Include: Specific descriptors, point values, student-friendly language
+Format as a table with clear performance indicators.
 ```
 
-**Plain Language Converter**
+**Quiz Creator**
 ```
-Rewrite this technical explanation for [grade level] reading comprehension:
-[paste complex text]
-Maintain accuracy while using:
-- Shorter sentences (max 20 words)
-- Common vocabulary
-- Active voice
-- Clear logical flow
-Include a glossary for unavoidable technical terms.
-```
-
-**Multi-modal Content Creator**
-```
-Transform this text-based content into multiple formats:
-- Visual: infographic or diagram
-- Audio: podcast script or audio explanation
-- Kinesthetic: hands-on activity or demonstration
-- Interactive: quiz or game format
-All versions should achieve the same learning outcome.
+Generate a 10-question mixed assessment on [topic]:
+- 5 multiple choice (include plausible distractors)
+- 3 short answer (2-3 sentence responses)
+- 2 application problems
+Include answer key with brief explanations.
+Target: [grade level], Duration: [time limit]
 ```
 
 ---
 
-## Module 7 - Data Privacy & Risk (per major)
+## Module 6 - Teaching AI Literacy
 
-> **Minimums:** Prefer privacy-preserving workflows, clear consent, and **opt-out** paths. For higher-risk uses, pilot small and monitor.
+### Critical AI Thinking Activities
 
-**Data Science**  
-- Never upload raw datasets containing PII to public tools.  
-- Prevent **data leakage** (train/test contamination) when co-creating with AI.  
-- Document sources; avoid fabricated citations; verify statistics.
-
-**Digital Media**  
-- Respect **copyright & licenses** (assets, fonts, models).  
-- Disclose synthetic media use; avoid deepfake likenesses without consent.  
-- Provide accessible outputs (captions, transcripts, colour-contrast).
-
-**Sports**  
-- Athlete data is **sensitive**: anonymise, aggregate, or use public/open data.  
-- Do not publish identifiable performance/health data without consent.  
-- Consider context: metrics should inform coaching decisions, not stigmatise athletes.
-
-### **Enhanced Privacy Protocols**
-
-**Data Anonymization Checklist**
+**1. AI vs. Human Source Comparison**
 ```
-Before using any dataset for teaching:
-□ Remove direct identifiers (names, IDs, addresses)
-□ Check for quasi-identifiers (age + location + role)
-□ Consider k-anonymity (minimum group size)
-□ Review for sensitive attributes
-□ Document anonymization process
-□ Obtain appropriate permissions
-□ Plan secure disposal of originals
+Students research [topic] using both AI and traditional sources, then compare:
+- What information does each prioritize?
+- How do depth and bias differ?
+- Which provides better sources?
+- When would you use each approach?
 ```
 
-**AI Tool Risk Assessment**
+**2. Bias Detection Exercise**
 ```
-For each AI tool, evaluate:
-- Data retention policies
-- Geographic data storage
-- User access controls
-- Integration with other platforms
-- Export/deletion capabilities
-- Educational vs. commercial use terms
-- Student age restrictions
+Have students ask AI to describe [controversial topic] and analyze:
+- Whose perspectives are centered or missing?
+- What assumptions are embedded?
+- How does prompt phrasing change responses?
+- What would different communities say about this?
 ```
 
----
-
-## Module 8 - Custom Course Assistant
-
-- Upload materials you **own** or can share: syllabus, outcomes, rubrics, exemplar answers (teacher-only), misconceptions, bilingual glossary.  
-- Keep it **private**; disclose to students; always provide a **non-AI alternative**.
-
-**Seed instruction add-ons by major**  
-- *Data Science*: prefer **explainable baselines** before advanced models; include **evaluation checklists**.  
-- *Digital Media*: enforce **attribution rules**; add a "style constraints & originality" reminder.  
-- *Sports*: add **ethics prompts** and **data-minimisation** defaults.
-
-### **Advanced Course Assistant Setup**
-
-**Claude Projects for Education**
-Create dedicated Claude Projects with:
-- Course syllabus and learning outcomes
-- Assignment templates and rubrics
-- Common misconceptions database
-- Differentiated instruction examples
-- Assessment strategies
-- Student feedback templates
-
-**Conversation Starters for Course Assistants**
+**3. Fact-Checking Challenge**
 ```
-- "Help me design a lesson on [topic] for week [X]"
-- "Create assessment materials for [learning outcome]"
-- "Suggest differentiation strategies for [activity]"
-- "Generate discussion questions for [reading/video]"
-- "Design a rubric for [assignment type]"
-- "Create practice problems for [concept]"
+Students verify AI-generated claims by:
+- Cross-referencing with authoritative sources
+- Identifying unsupported statements
+- Finding contradictory evidence
+- Rating confidence levels for each claim
+```
+
+**4. Prompt Engineering Lab**
+```
+Students iterate on prompts to achieve specific goals:
+- Start with vague prompt, measure results
+- Add specificity and constraints iteratively
+- Document what improvements work best
+- Share successful patterns with class
+```
+
+### AI Literacy Prompt Templates
+
+**Explain AI Limitations**
+```
+In student-friendly language, explain why AI sometimes:
+- Provides incorrect information
+- Shows bias in responses
+- Struggles with recent events
+- Can't replace human judgment
+Include 2 examples relevant to [subject area].
+```
+
+**Generate Discussion Questions**
+```
+Create 5 Socratic questions about AI ethics for [grade level]:
+Focus on privacy, bias, job impact, and decision-making.
+Questions should build from basic understanding to critical analysis.
 ```
 
 ---
 
-## Module 9 - Advanced Prompting Techniques
+## Module 7 - Ethical Considerations & Safety
 
-### **Chain-of-Thought Prompting**
-```
-Let's work through this step-by-step:
-1. First, identify the key learning objectives for [topic]
-2. Then, consider what students already know about this topic
-3. Next, determine the biggest conceptual challenges
-4. Finally, design activities that address each challenge
-Work through each step explicitly before providing the final lesson plan.
-```
+### Privacy Protection Checklist
+- ❌ Never input student names, grades, or personal information
+- ✅ Use generic examples ("Student A scored 85%")
+- ❌ Avoid uploading identifiable student work
+- ✅ Create sample work for AI analysis instead
+- ❌ Don't share class roster or family information
+- ✅ Focus on educational content and general scenarios
 
-### **Role-Playing Prompts**
-```
-You are now a [first-year student / industry expert / worried parent / skeptical colleague] 
-reviewing this [lesson plan/assignment/policy]. 
-Provide feedback from that perspective, considering:
-- What would concern this person most?
-- What questions would they ask?
-- What would they find most/least convincing?
-```
+### Bias Awareness Strategies
 
-### **Iterative Refinement Process**
-```
-1. Initial creation: "Create a basic [item] for [context]"
-2. Critique phase: "Review this and identify 3 potential improvements"
-3. Enhancement: "Revise based on those critiques"
-4. Testing: "What questions might students have about this?"
-5. Finalization: "Polish this for professional use"
-```
+**Content Review Process**
+1. Generate AI content
+2. Check for missing perspectives
+3. Verify factual accuracy
+4. Test with diverse examples
+5. Revise for inclusivity
+6. Document limitations
 
-### **Comparative Analysis Prompting**
+**Student Bias Detection Training**
 ```
-Compare these three approaches to [teaching concept/assessment method]:
-Approach A: [traditional method]
-Approach B: [technology-enhanced method]  
-Approach C: [innovative method]
-
-For each approach, analyze:
-- Learning effectiveness
-- Implementation complexity
-- Student engagement
-- Resource requirements
-- Accessibility considerations
-
-Recommend the best approach for [specific context] with rationale.
+Teach students to ask:
+- Who is represented in this response?
+- Whose voices might be missing?
+- What assumptions are being made?
+- How might different groups respond?
+- What questions should I ask next?
 ```
 
-### **Constraint-Based Prompting**
+### Ethical Use Prompts
+
+**Bias Check Template**
 ```
-Design [learning activity] with these specific constraints:
-- Time: [X] minutes
-- Resources: [limited tech/no budget/specific tools]
-- Class size: [Y] students
-- Physical space: [lecture hall/lab/online]
-- Student level: [beginner/intermediate/advanced]
-- Learning style: [must accommodate visual/auditory/kinesthetic]
-Work creatively within these limitations.
+Review this AI-generated content for potential bias:
+[Insert content]
+Identify: Missing perspectives, unfair assumptions, stereotypes,
+cultural limitations. Suggest 3 ways to make it more inclusive.
+```
+
+**Fact Verification Request**
+```
+Fact-check this information and identify any claims that need verification:
+[Insert content]
+Provide: Accuracy assessment, source recommendations, 
+uncertainty flags for questionable claims.
 ```
 
 ---
 
-## Tools by Major
+## Module 8 - AI Tools Directory
 
-**Common chat & research**  
-- [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)  
-- [Elicit](https://elicit.org/) (paper discovery) · [NotebookLM](https://notebooklm.google/) (source-grounded notes)  
-- [Canva](https://www.canva.com/) (quick visuals)
+### Core AI Chatbots
+| Tool | Best For | Link | Key Benefits |
+|------|----------|------|--------------|
+| **ChatGPT** | General teaching tasks, lesson planning | [chat.openai.com](https://chat.openai.com/) | Versatile, good for brainstorming, code generation |
+| **Claude** | Long-form content, document analysis | [claude.ai](https://claude.ai/) | Excellent for detailed lesson plans, ethical reasoning |
+| **Gemini** | Research integration, fact-checking | [gemini.google.com](https://gemini.google.com/) | Google integration, current information access |
+| **Perplexity** | Research and citation | [perplexity.ai](https://www.perplexity.ai/) | Provides sources, good for fact-checking |
 
-**Claude-Specific Educational Applications**
-- **Long-form content**: Comprehensive lesson plans, detailed rubrics, extensive reading materials
-- **Document analysis**: Upload and analyze student work, research papers, curriculum documents
-- **Code review**: Debug and improve programming assignments across multiple languages
-- **Iterative design**: Multi-turn conversations to perfect teaching materials
-- **Citation management**: Generate properly formatted academic references
-- **Ethical reasoning**: Built-in consideration of bias, fairness, and responsible AI use
+### Education-Specific AI Tools
 
-**Data Science** (teaching-friendly)  
-- **[Python](https://www.python.org/)**: Jupyter/Colab, [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [scikit-learn](https://scikit-learn.org/), matplotlib/plotly  
-- **DL**: PyTorch/TensorFlow (intro labs), [Keras](https://keras.io/)  
-- **Data**: [Kaggle Datasets](https://www.kaggle.com/datasets), [UCI ML Repository](https://archive.ics.uci.edu/)  
-- **MLOps (lightweight)**: [DVC](https://dvc.org/), [Weights & Biases](https://wandb.ai/) (education tiers)  
-- **Visualization**: [Tableau Public](https://public.tableau.com/) / [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop) / [Plotly](https://plotly.com/python/)
+**Lesson Planning & Content Creation**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **MagicSchool** | Comprehensive teaching toolkit | [magicschool.ai](https://www.magicschool.ai/) | 60+ AI tools, rubrics, IEP support, lesson plans |
+| **Eduaide** | Lesson planning assistant | [eduaide.ai](https://www.eduaide.ai/) | Standards alignment, differentiation, assessments |
+| **School AI** | Automated lesson plans | [schoolai.com](https://www.schoolai.com/) | Real-time personalization, standards alignment |
+| **Brisk Teaching** | Chrome extension for educators | [briskteaching.com](https://www.briskteaching.com/) | Google integration, quick resource creation |
+| **Twee** | Language learning activities | [twee.com](https://twee.com/) | Vocabulary, comprehension, discussion prompts |
 
-**Digital Media**  
-- **Design**: [Canva](https://www.canva.com/), [Figma](https://www.figma.com/) (education), Adobe Express/Firefly (check licenses)  
-- **3D/Animation**: [Blender](https://www.blender.org/)  
-- **Video**: [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve), [CapCut](https://www.capcut.com/) (education)  
-- **Audio**: [Audacity](https://www.audacityteam.org/), [Ocenaudio](https://www.ocenaudio.com/)  
-- **Image gen**: [DALL·E](https://openai.com/research/dall-e), [Midjourney](https://www.midjourney.com/) (use ethically; disclose)
+**Assessment & Feedback**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **Quizizz AI** | Interactive quizzes | [quizizz.com](https://quizizz.com/) | Gamified assessments, instant feedback |
+| **Diffit** | Reading level adaptation | [diffit.me](https://www.diffit.me/) | Multi-level texts, comprehension questions |
+| **TeachAid** | Accessible materials | [teachaid.org](https://www.teachaid.org/) | Supports diverse learning needs |
 
-**Sports**  
-- **Analysis**: [Tableau Public](https://public.tableau.com/), [Power BI](https://powerbi.microsoft.com/), [Python](https://www.python.org/) ([pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/)), [R](https://www.r-project.org/) ([tidyverse](https://www.tidyverse.org/))  
-- **Video tagging**: [LongoMatch](https://www.longomatch.com/), [Kinovea](https://www.kinovea.org/) (motion review)  
-- **Open data**: [StatsBomb open data](https://statsbomb.com/resources/), [FiveThirtyEight](https://fivethirtyeight.com/) archives (for teaching)  
-- **Pose/vision (advanced)**: OpenPose/MediaPipe (for labs with consented, public videos)
+**Visual & Interactive Content**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **Canva** | Design and presentations | [canva.com](https://www.canva.com/) | Templates, AI-generated visuals, educational layouts |
+| **Napkin AI** | Data visualization | [napkin.ai](https://www.napkin.ai/) | Turns text into infographics and charts |
+| **Curipod** | Interactive lessons | [curipod.com](https://curipod.com/) | Live polls, collaborative activities |
+| **Padlet** | Collaborative boards | [padlet.com](https://padlet.com/) | Student collaboration, resource sharing |
 
-> Always check institutional approvals and licenses before using external tools with students.
+**Research & Analysis**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **NotebookLM** | Document analysis | [notebooklm.google.com](https://notebooklm.google.com/) | Upload documents, generate summaries, create outlines |
+| **Elicit** | Academic paper discovery | [elicit.org](https://elicit.org/) | Research literature, evidence synthesis |
+| **MyLens** | Data visualization | [mylens.ai](https://mylens.ai/) | Interactive data exploration |
 
----
+**Multimedia Creation**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **ElevenLabs** | Text-to-speech | [elevenlabs.io](https://elevenlabs.io/) | Realistic voices, accessibility support |
+| **Synthesia AI** | AI video creation | [synthesia.io](https://www.synthesia.io/) | Professional instructional videos |
+| **Snorkl** | Audio explanations | [snorkl.ai](https://snorkl.ai/) | Captures student thinking processes |
 
-## Custom GPT Instruction Template
-
-Paste into your assistant's "system/instructions":
-```
-You are a course assistant for [Course Name] at Stirling College (Chengdu University).
-Goals: Support [level] students to meet [learning outcomes].
-
-Context: This is a [semester/year] course in [major] focusing on [key themes]. Students have [prerequisite knowledge] and will go on to [next courses/career paths].
-
-Do:
-- Use plain language; scaffold explanations; offer structured outlines, examples, and checklists.
-- Ask one clarifying question only if essential to meet the request.
-- Provide sources/links for factual claims; flag uncertainty and common misconceptions.
-- Offer differentiated outputs (basic/standard/challenge).
-- Respect privacy: never request or process PII or student-identifiable work.
-- Include a short "limitations & bias check" note for teacher-facing outputs.
-- Support iterative improvement - ask if refinement is needed before considering task complete.
-- Connect concepts to real-world applications relevant to [geographic region/industry context].
-
-Don't:
-- Produce final graded work or complete summative assessments.
-- Fabricate citations or statistics; if unsure, say so and propose verification.
-- Store or reuse any user content beyond the current session.
-- Make assumptions about student abilities or backgrounds.
-
-Formatting defaults:
-- Use markdown with headings, bullet points, and tables when helpful.
-- For Data Science: prefer simple, explainable baselines before advanced models; include evaluation checklists.
-- For Digital Media: enforce attribution/licensing and originality reminders; add accessibility notes.
-- For Sports: emphasise data minimisation, consent, and coach-facing clarity.
-
-Special considerations for this course:
-- [Add course-specific requirements, common misconceptions, or cultural considerations]
-```
+**Specialized Tools**
+| Tool | Purpose | Link | Benefits |
+|------|---------|------|----------|
+| **Khanmigo** | AI tutor | [khanacademy.org](https://www.khanacademy.org/khan-labs) | Personalized tutoring, teacher insights |
+| **FigJam** | Collaborative whiteboard | [figma.com/figjam](https://www.figma.com/figjam/) | Visual brainstorming, project planning |
+| **Slidesgo** | Presentation templates | [slidesgo.com](https://slidesgo.com/) | Ready-made educational slide templates |
+| **Poe** | Multiple AI models | [poe.com](https://poe.com/) | Access to various AI models in one platform |
 
 ---
 
-## Acknowledging AI Assistance
+## Module 9 - Ready-to-Use Prompts Library
 
-### **Detailed Attribution Templates**
+### Lesson Planning Prompts
 
-**For Basic AI Use**
-> "**AI Assistance**: [Tool name] used for brainstorming and initial outline generation. All content was reviewed, fact-checked, and significantly revised by the author."
-
-**For Code/Technical Work**
-> "**AI Assistance**: [Tool] provided initial code structure and debugging suggestions for [specific functions]. Code was tested, optimized, and documented by the author. Final algorithm design and implementation decisions were human-made."
-
-**For Creative Work**
-> "**AI Assistance**: [Tool] generated initial ideas and style suggestions. All creative decisions, content selection, and final artistic execution were completed by the author. Original concept and artistic vision remain entirely human-created."
-
-**For Research Work**
-> "**AI Assistance**: [Tool] helped organize sources and generate preliminary analysis frameworks. All source verification, critical analysis, and conclusions were conducted by the author. AI was not used for literature search or citation generation."
-
-### **Process Documentation Template**
+**90-Minute Lesson Structure**
 ```
-AI Assistance Log:
-- Tool used: [name and version]
-- Date(s) of use: [specific dates]
-- Purpose: [brainstorming/editing/debugging/etc.]
-- Prompts used: [key prompts, not full transcripts]
-- Output used: [% of AI output retained vs. modified]
-- Verification steps: [how accuracy was confirmed]
-- Human contribution: [what student added/changed/created]
+Create a 90-minute lesson on [TOPIC] for [GRADE LEVEL] including:
+- 5-minute engaging hook connecting to student experience
+- 20-minute direct instruction with 3 key concepts
+- 30-minute guided practice with formative assessment
+- 25-minute independent/group work with differentiation
+- 10-minute closure with exit ticket
+
+Learning Objective: Students will [SPECIFIC MEASURABLE GOAL]
+Materials needed: List all required resources
+Assessment: Include 2 formative checkpoints
+```
+
+**Cross-Curricular Connections**
+```
+Design activities connecting [SUBJECT 1] and [SUBJECT 2] for [GRADE]:
+Create 3 integrated activities that authentically combine both subjects
+Include: Skills from each discipline, shared vocabulary, assessment rubric
+Real-world application: Connect to current events or student interests
+```
+
+**Differentiation Planner**
+```
+Adapt this lesson for diverse learners:
+Base lesson: [PASTE LESSON OVERVIEW]
+
+Create versions for:
+- English Language Learners (vocabulary support, visual aids)
+- Students with learning differences (modified expectations, scaffolding)
+- Advanced learners (extension activities, deeper analysis)
+- Multiple learning styles (visual, auditory, kinesthetic options)
+```
+
+### Assessment Creation Prompts
+
+**Comprehensive Assessment Generator**
+```
+Create a complete assessment package for [TOPIC] at [GRADE LEVEL]:
+- 15 multiple choice questions with 4 realistic distractors each
+- 5 short answer questions requiring 2-3 sentence responses  
+- 2 essay prompts with clear scoring criteria
+- Performance-based task with step-by-step rubric
+- Answer key with explanations for each item
+- Estimated completion time and point values
+```
+
+**Rubric Builder**
+```
+Design a detailed rubric for [ASSIGNMENT TYPE]:
+Criteria: [LIST 4-6 SPECIFIC CRITERIA]
+Performance Levels: Exemplary (4), Proficient (3), Developing (2), Beginning (1)
+For each cell, provide:
+- Specific, observable behaviors
+- Student-friendly language
+- Examples of evidence
+- Point values totaling [X] points
+Include self-assessment version for students
+```
+
+**Formative Assessment Ideas**
+```
+Generate 10 quick formative assessment strategies for [SUBJECT/TOPIC]:
+Include: Exit tickets, think-pair-share prompts, digital polls, 
+one minute papers, gallery walks, peer feedback protocols
+Each should take 5 minutes or less and check understanding of [SPECIFIC CONCEPT]
+Provide implementation tips and follow-up strategies
+```
+
+### Student Engagement Prompts
+
+**Discussion Question Generator**
+```
+Create engaging discussion questions for [TOPIC] that:
+- Build from basic recall to higher-order thinking
+- Connect to students' lives and current events
+- Encourage multiple perspectives and respectful debate
+- Include follow-up questions to deepen thinking
+
+Format: 3 warm-up questions, 4 analysis questions, 2 synthesis questions
+Include suggested think time and grouping strategies
+```
+
+**Interactive Activity Designer**
+```
+Design a 20-minute interactive activity for [TOPIC] that:
+- Gets all students actively participating (not just volunteers)
+- Works in [CLASSROOM SETUP - traditional/flexible/online]
+- Requires minimal preparation and common materials
+- Includes clear instructions and time allocations
+- Has built-in assessment and reflection components
+Provide troubleshooting tips for common challenges
+```
+
+**Real-World Connection Maker**
+```
+Create authentic real-world connections for [ACADEMIC CONCEPT]:
+- 3 current examples from different industries/contexts
+- 1 local community connection students can investigate
+- Career pathway connections showing practical applications
+- Discussion questions linking theory to practice
+- Optional field trip or guest speaker suggestions
+Include background context students need for understanding
+```
+
+### Differentiation & Accessibility Prompts
+
+**Multi-Level Content Creator**
+```
+Transform this content for three learning levels:
+Base content: [PASTE CONTENT]
+
+Create:
+- Foundation Level: Essential concepts only, concrete examples, simplified vocabulary
+- Grade Level: Full content with standard complexity and applications  
+- Advanced Level: Extended analysis, abstract connections, independent research components
+
+Maintain the same learning objectives across all levels
+Include assessment criteria appropriate for each level
+```
+
+**Universal Design Adapter**
+```
+Make this lesson accessible for all learners:
+Original lesson: [PASTE LESSON]
+
+Adaptations for:
+- Visual learners: Graphic organizers, color coding, diagrams
+- Auditory learners: Discussion, audio resources, verbal processing  
+- Kinesthetic learners: Movement, manipulation, hands-on activities
+- Students needing additional support: Scaffolds, checklists, peer partners
+- Technology integration: Digital tools, assistive technology options
+```
+
+**Language Support Generator**
+```
+Create language supports for [LESSON/CONTENT]:
+- Vocabulary list with student-friendly definitions
+- Visual vocabulary cards with images/symbols
+- Sentence starters for discussions and writing
+- Graphic organizers with language frames
+- Peer translation partnership protocols
+- Assessment accommodations for language learners
+Target languages: [SPECIFY IF RELEVANT]
+```
+
+### Critical Thinking & Analysis Prompts
+
+**Socratic Questioning Sequence**
+```
+Develop a Socratic dialogue for [CONCEPT/ISSUE]:
+Create 12 questions that guide students from basic understanding to critical analysis:
+- Questions 1-3: Activate prior knowledge and clarify understanding
+- Questions 4-7: Analyze relationships and examine evidence  
+- Questions 8-10: Evaluate implications and consider alternatives
+- Questions 11-12: Synthesize learning and apply to new situations
+Include suggested student responses and follow-up probes
+```
+
+**Bias Detection Activity**
+```
+Create an activity helping students identify bias in [CONTENT TYPE]:
+- Provide examples with varying levels of obvious/subtle bias
+- Develop analysis questions focusing on:
+  * Source credibility and potential motivations
+  * Missing perspectives or voices
+  * Language choices and emotional appeals
+  * Evidence quality and logical reasoning
+- Include debiasing strategies students can apply
+- Create reflection questions about their own potential biases
+```
+
+**Argument Analysis Framework**
+```
+Design a structured approach for analyzing arguments about [CONTROVERSIAL TOPIC]:
+Include:
+- Argument identification tools (claim, evidence, warrant)
+- Credibility assessment checklist  
+- Logical fallacy identification guide
+- Perspective-taking exercises
+- Counter-argument development strategies
+- Evidence evaluation criteria
+Make age-appropriate for [GRADE LEVEL] with relevant examples
+```
+
+### Technology Integration Prompts
+
+**AI Collaboration Activity**
+```
+Create a lesson where students work WITH AI to [ACCOMPLISH GOAL]:
+Structure:
+1. Students develop initial ideas independently
+2. Use AI for brainstorming and expansion
+3. Critically evaluate AI suggestions
+4. Synthesize human creativity with AI capabilities
+5. Reflect on collaboration process
+
+Include: AI prompts for students, evaluation criteria, 
+reflection questions about AI strengths/limitations
+```
+
+**Digital Literacy Builder**
+```
+Design activities teaching responsible AI use:
+- Prompt engineering practice with [SUBJECT CONTENT]
+- Fact-checking AI-generated information
+- Identifying AI bias and limitations  
+- Ethical AI use scenarios and discussions
+- AI vs. human capability comparisons
+
+Create assessment rubric for AI collaboration skills
+Include parent/guardian communication about AI use
 ```
 
 ---
 
-## Advanced Classroom Integration Strategies
+## Module 10 - Custom GPT Creation
 
-### **AI-Enhanced Peer Learning**
+### Custom GPT Instruction Template
 ```
-Peer Review with AI Support:
-1. Students draft initial work (human-only)
-2. AI generates review questions specific to assignment criteria
-3. Peers conduct reviews using AI-generated framework
-4. Students revise based on peer feedback
-5. AI helps generate reflection prompts on the peer review process
+You are a specialized teaching assistant for [SUBJECT/GRADE LEVEL].
+
+CONTEXT: [Describe your teaching environment, student demographics, curriculum focus]
+
+CAPABILITIES:
+- Create lesson plans aligned to [STANDARDS SYSTEM]
+- Generate assessments with detailed rubrics
+- Provide differentiated materials for diverse learners
+- Suggest engagement strategies and real-world connections
+- Offer constructive feedback on educational content
+
+FORMATTING DEFAULTS:
+- Use clear headings and bullet points
+- Provide step-by-step instructions
+- Include time estimates and material lists
+- Offer multiple difficulty levels when relevant
+
+QUALITY ASSURANCE:
+- Always cite sources for factual information
+- Include bias check notes for sensitive topics
+- Suggest verification steps for important claims
+- Flag content requiring teacher review
+
+LIMITATIONS:
+- Never process personally identifiable student information
+- Cannot replace professional pedagogical judgment
+- Should not generate final grades or evaluative decisions
+- Always recommend teacher review of generated content
+
+SPECIAL FOCUS: [Add subject-specific requirements, e.g., "Emphasize inquiry-based learning in science" or "Include cultural responsiveness in literature selections"]
 ```
 
-### **Flipped Classroom with AI**
-```
-Pre-Class Preparation:
-- AI generates personalized study guides based on learning objectives
-- Students use AI to test their understanding with practice questions
-- AI identifies knowledge gaps and suggests additional resources
+### Conversation Starters for Custom GPTs
+- "Create a week-long unit plan for [topic] including daily lessons and assessments"
+- "Generate differentiated materials for my upcoming lesson on [concept]"  
+- "Design an engaging hook activity for introducing [subject matter]"
+- "Create a rubric for [assignment type] that emphasizes [key skills]"
+- "Suggest real-world applications for [academic concept]"
+- "Help me adapt this lesson for English language learners"
+- "Generate discussion questions that promote critical thinking about [topic]"
 
-In-Class Application:
-- Focus on higher-order thinking and problem-solving
-- Use AI-generated scenarios for case study discussions
-- AI helps facilitate small group work with targeted prompts
-```
-
-### **Assessment Innovation**
-```
-Process-Focused Assessment:
-- Students document their problem-solving approach
-- AI helps generate metacognitive reflection questions
-- Assessment includes both final product and thinking process
-- AI assists in creating personalized feedback
-```
+### Resources to Upload to Custom GPT
+- Course curriculum standards and pacing guides
+- Sample lesson plan templates you prefer
+- Assessment rubrics you commonly use
+- Classroom management strategies that work for you
+- Subject-specific pedagogical approaches
+- Common misconceptions in your field
+- Vocabulary lists and concept glossaries
 
 ---
 
-## Troubleshooting Common Challenges
+## Acknowledgments & Citations
 
-### **Student Over-Reliance on AI**
-**Prevention strategies:**
-- Build assignments that require personal experience/opinion
-- Use local/specific contexts AI won't know
-- Include peer discussion and presentation components
-- Require process documentation showing human thinking
+### AI Assistance Attribution Template
+**For Basic Use:**
+> "AI Assistance: [Tool name] used for initial brainstorming and content structuring. All information was verified, adapted, and significantly revised for classroom context."
 
-### **Quality Control Issues**
-**Solutions:**
-- Create AI output evaluation checklists for students
-- Teach fact-checking and source verification skills
-- Use iterative refinement processes
-- Implement peer review of AI-assisted work
+**For Collaborative Creation:**
+> "AI Partnership: [Tool name] collaborated in creating [specific elements]. Human educator made all final pedagogical decisions, adapted content for student needs, and verified accuracy."
 
-### **Equity and Access Concerns**
-**Approaches:**
-- Provide free alternatives to premium AI tools
-- Ensure non-AI pathways for all learning objectives
-- Offer AI literacy training for all students
-- Consider digital divide implications in assignment design
+**For Student Assignments:**
+> "AI Collaboration Log: Used [tool] for [specific purpose]. Provided [type of input], received [type of output], made [specific changes]. Final work represents my understanding and original thinking."
+
+### Recommended Reading & Resources
+- **UNESCO**: Guidance for Generative AI in Education & Research
+- **U.S. Department of Education**: AI Toolkit for Safe, Ethical Integration  
+- **ISTE**: Standards and Guidelines for AI in Education
+- **Partnership on AI**: Tenets for Responsible AI in Education
+- **Teaching AI**: [teachingai.org](https://www.teachingai.org/) - Global initiative for AI in education
 
 ---
 
-## Professional Development Resources
+## Getting Support
 
-### **Staying Current with AI in Education**
+### Professional Learning Communities
+- **TeachAI Community**: Global network of educators using AI responsibly
+- **ISTE AI Networks**: Subject-specific groups and regional chapters
+- **Local Education Cooperatives**: Many offer AI integration workshops
+- **University Partnerships**: Teacher preparation programs with AI components
+
+### Troubleshooting Common Challenges
+**"AI outputs are too generic"** → Use more specific prompts with context and constraints
+**"Students over-rely on AI"** → Design assignments requiring personal experience and reflection
+**"Parents are concerned"** → Share your AI policy and emphasize critical thinking goals
+**"AI information is incorrect"** → Teach verification strategies and use as learning opportunity
+**"Technical barriers"** → Start with simple, browser-based tools requiring minimal setup
+
+### Stay Current
 - Follow education technology researchers and publications
-- Join AI in education communities and forums  
-- Attend workshops and conferences on educational AI
-- Experiment with new tools in low-risk contexts
-- Share experiences with colleagues
-
-### **Building AI Literacy**
-- Understand basic machine learning concepts
-- Learn about bias, fairness, and ethics in AI
-- Practice prompt engineering for educational contexts
-- Develop critical evaluation skills for AI outputs
-- Stay informed about privacy and data protection
+- Join AI in education conferences and webinars
+- Experiment with new tools in low-stakes environments
+- Connect with innovative educators in your subject area
+- Subscribe to education-focused AI newsletters and blogs
 
 ---
 
-## Rubrics (Download & Adapt)
-
-- **Data Science**: [CSV](rubrics/rubric_data_science.csv) · [Markdown](rubrics/rubric_data_science.md)  
-- **Digital Media**: [CSV](rubrics/rubric_digital_media.csv) · [Markdown](rubrics/rubric_digital_media.md)  
-- **Sports**: [CSV](rubrics/rubric_sports.csv) · [Markdown](rubrics/rubric_sports.md)
-
-### **AI Integration Assessment Rubrics**
-
-**AI Collaboration Skills Rubric**
-- **Exemplary**: Demonstrates sophisticated prompt crafting, critical evaluation of AI outputs, and seamless integration of AI assistance with human creativity
-- **Proficient**: Uses AI effectively for appropriate tasks, verifies outputs, and maintains clear distinction between AI and human contributions  
-- **Developing**: Shows basic AI interaction skills but needs support in critical evaluation and appropriate use boundaries
-- **Beginning**: Limited understanding of AI capabilities; requires guidance on effective prompting and output evaluation
-
----
-
-## References
-- **UNESCO** – *Guidance for Generative AI in Education & Research* (human-centred, inclusion, equity).  
-- **U.S. Dept. of Education (Office of EdTech)** – *Empowering Education Leaders: A Toolkit for Safe, Ethical, and Equitable AI Integration* (privacy, civil rights, opt-outs).  
-- **Stirling (internal policy summary)** – *AI in Teaching & Assessments Workshop (Autumn 2024)* – staff/student guidance highlights on assessment and disclosure.   
-- **Teachers' prompting & critical use** – *Ways to Use AI Critically in the Classroom* – prompt-building, bias checks.
-- **Anthropic** – *Claude for Education: Best Practices Guide* – responsible AI use in academic settings.
-- **Partnership on AI** – *Tenets for Responsible AI in Education* – ethical framework for educational AI applications.
-- **International Society for Technology in Education (ISTE)** – *AI Guidance for Schools* – implementation strategies and policy development.
+*Remember: AI is a powerful teaching tool, but human judgment, creativity, and relationship-building remain at the heart of great education. Use AI to enhance your teaching, not replace your professional expertise.*
