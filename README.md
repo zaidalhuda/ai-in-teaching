@@ -822,8 +822,7 @@ Process-Focused Assessment:
 ## References
 - **UNESCO** – *Guidance for Generative AI in Education & Research* (human-centred, inclusion, equity).  
 - **U.S. Dept. of Education (Office of EdTech)** – *Empowering Education Leaders: A Toolkit for Safe, Ethical, and Equitable AI Integration* (privacy, civil rights, opt-outs).  
-- **Stirling (internal policy summary)** – *AI in Teaching & Assessments Workshop (Autumn 2024)* – staff/student guidance highlights on assessment and disclosure.  
-- **Stirling College / Data Science** – *Programme Handbook (2023–2024)* – assessment & integrity context for DS modules.  
+- **Stirling (internal policy summary)** – *AI in Teaching & Assessments Workshop (Autumn 2024)* – staff/student guidance highlights on assessment and disclosure.   
 - **Teachers' prompting & critical use** – *Ways to Use AI Critically in the Classroom* – prompt-building, bias checks.
 - **Anthropic** – *Claude for Education: Best Practices Guide* – responsible AI use in academic settings.
 - **Partnership on AI** – *Tenets for Responsible AI in Education* – ethical framework for educational AI applications.
