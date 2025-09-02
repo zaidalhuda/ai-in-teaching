@@ -16,9 +16,9 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
    Clarify where AI is **allowed / limited / not allowed**, how to **acknowledge AI**, and privacy basics.
 
 3) **Pilot one AI-supported lesson** this week (Module 4)  
-   Use AI for ideation, materials, and differentiation — then **verify** and **cite** sources.
+   Use AI for ideation, materials, and differentiation - then **verify** and **cite** sources.
 
-> **Stirling alignment:** Focus on academic integrity, transparency about AI use, and process evidence—detectors are unreliable; use oral checks and artefacts instead.
+> **Stirling alignment:** Focus on academic integrity, transparency about AI use, and process evidence-detectors are unreliable; use oral checks and artefacts instead.
 
 ---
 
