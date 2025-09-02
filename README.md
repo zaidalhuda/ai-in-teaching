@@ -60,9 +60,6 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 > **Equity**: Non‑AI routes are available for every required task.  
 > **Review**: Policy will be revisited mid‑semester.
 
-**(Optional) 中文课程声明（可直接粘贴到教学大纲）**  
-> 生成式 AI 可用于构思、提纲、练习与语言润色，但**不能**替代独立思考与原创工作。请勿上传任何可识别学生身份的信息；如使用 AI，请在作业末尾添加“AI 协助说明”。为不使用 AI 的同学提供等效的人类方案。
-
 ---
 
 ## Module 2 — Choose & Configure Your Assistant
