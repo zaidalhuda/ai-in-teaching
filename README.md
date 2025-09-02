@@ -3,11 +3,10 @@
 
 A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy‑paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
 
-> Tip: Put this file at the root of your repo as `README.md`. Add an `/assets` folder later for screenshots or banners.
 
 ---
 
-## Quick Start (10 minutes)
+## Quick Start 
 
 1) **Pick one main assistant** you’ll use this term  
    Recommended: [ChatGPT](https://chat.openai.com) · [Claude](https://claude.ai) · [Gemini](https://gemini.google.com) · [Perplexity](https://www.perplexity.ai)
