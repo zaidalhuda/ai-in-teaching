@@ -34,8 +34,7 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 - [Module 8 - Custom Course Assistant ](#module-8--custom-course-assistant-optional)  
 - [Tools by Major](#tools-by-major)  
 - [Capstone Ideas by Major](#capstone-ideas-by-major)  
-- [Policy Templates & Examples](#policy-templates--examples)  
-- [AI Tool Adoption Rubric](#ai-tool-adoption-rubric)    
+- [Policy Templates & Examples](#policy-templates--examples)   
 - [Custom GPT Instruction Template](#custom-gpt-instruction-template)  
 - [Acknowledging AI Assistance](#acknowledging-ai-assistance)   
 - [References](#references)
@@ -158,7 +157,7 @@ Make 10 Socratic questions leading students from intuition to formal reasoning a
 
 ---
 
-## Module 6 — Accessibility & Inclusive Design
+## Module 6 - Accessibility & Inclusive Design
 
 - Generate bilingual glossaries, plain-language versions, and reading/listening alternatives.  
 - Ask AI to draft **alt text**, **captions**, and **transcripts** (then review).  
@@ -267,28 +266,6 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 - **Reading response**: AI for outline/clarify; student writes final; attach outline + reflection.  
 - **Lab report**: AI for formatting/grammar; analysis and interpretation are student-authored.  
 - **Oral viva**: AI may generate practice questions; in-person assessment is AI-free.
-
----
-
-## AI Tool Adoption Rubric
-
-Score candidate tools (1–5):
-1) **Accuracy & Learning Value**  
-2) **Transparency** (limitations, sources)  
-3) **Privacy & Data Minimisation**  
-4) **Accessibility/UDL**  
-5) **Equity & Inclusion**  
-6) **Opt-out Availability** (human alternative)
-
-**Example (filled)**  
-| Criterion | Score | Evidence/Notes |
-|---|:--:|---|
-| Accuracy & Learning Value | 4 | Good alignment; teacher review needed |
-| Transparency | 3 | Links present, but generic |
-| Privacy & Minimisation | 4 | Student accounts not required |
-| Accessibility/UDL | 3 | Works on mobile; test with screen readers |
-| Equity & Inclusion | 4 | Multilingual features |
-| Opt-out Availability | 5 | Full human path available |
 
 ---
 
