@@ -1,35 +1,38 @@
 # AI in Teaching 
+**Majors focus:** Data Science · Digital Media · Sports
 
-A practical, step-by-step guide to help teachers plan **responsible, effective AI use** in courses — from policy and prompting to lessons, assessment, accessibility, and risk. This version includes **many concrete examples** you can copy‑paste into teaching.
+A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy‑paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
+
+> Tip: Put this file at the root of your repo as `README.md`. Add an `/assets` folder later for screenshots or banners.
 
 ---
 
-## Quick Start
+## Quick Start (10 minutes)
 
 1) **Pick one main assistant** you’ll use this term  
-   Recommended: [ChatGPT](https://chat.openai.com), [Claude](https://claude.ai), [Gemini](https://gemini.google.com), [Perplexity](https://www.perplexity.ai).  
-   (Choose one to reduce cognitive load; you can compare later.)
+   Recommended: [ChatGPT](https://chat.openai.com) · [Claude](https://claude.ai) · [Gemini](https://gemini.google.com) · [Perplexity](https://www.perplexity.ai)
 
 2) **Publish a short Class AI Use Agreement** (template below)  
-   State where AI is **allowed / limited / not allowed**, how to **acknowledge AI use**, and privacy basics.
+   Clarify where AI is **allowed / limited / not allowed**, how to **acknowledge AI**, and privacy basics.
 
-3) **Plan one AI-supported lesson** (Module 4)  
+3) **Pilot one AI-supported lesson** this week (Module 4)  
    Use AI for ideation, materials, and differentiation — then **verify** and **cite** sources.
 
 ---
 
 ## Contents
 
-- [Module 1 — Responsible, Human-Centred AI Use](#module-1--responsible-human-centred-ai-use)  
-- [Module 2 — Choose & Configure Your Main Assistant](#module-2--choose--configure-your-main-assistant)  
+- [Module 1 — Responsible, Human‑Centred AI Use](#module-1--responsible-humancentred-ai-use)  
+- [Module 2 — Choose & Configure Your Assistant](#module-2--choose--configure-your-assistant)  
 - [Module 3 — Prompting Patterns (Cheatsheet + Library)](#module-3--prompting-patterns-cheatsheet--library)  
-- [Module 4 — Lesson Planning with AI (Workflow + Examples)](#module-4--lesson-planning-with-ai-workflow--examples)  
-- [Module 5 — Assessment, Integrity & the AI Assessment Scale](#module-5--assessment-integrity--the-ai-assessment-scale)  
+- [Module 4 — Lesson Planning (Workflow + Examples)](#module-4--lesson-planning-workflow--examples)  
+- [Module 5 — Assessment, Integrity & AI Levels](#module-5--assessment-integrity--ai-levels)  
 - [Module 6 — Accessibility & Inclusive Design](#module-6--accessibility--inclusive-design)  
-- [Module 7 — Data Privacy & Risk Awareness](#module-7--data-privacy--risk-awareness)  
-- [Module 8 — Build a Course-Specific Custom GPT (Optional)](#module-8--build-a-course-specific-custom-gpt-optional)  
-- [Tools Directory (Teacher-Friendly Picks)](#tools-directory-teacher-friendly-picks)  
-- [Discipline Spotlights (Concrete Use Cases)](#discipline-spotlights-concrete-use-cases)  
+- [Module 7 — Data Privacy & Risk (per major)](#module-7--data-privacy--risk-per-major)  
+- [Module 8 — Custom Course Assistant (Optional)](#module-8--custom-course-assistant-optional)  
+- [Tools by Major](#tools-by-major)  
+- [Assignments by Major (Templates)](#assignments-by-major-templates)  
+- [Capstone Ideas by Major](#capstone-ideas-by-major)  
 - [Policy Templates & Examples](#policy-templates--examples)  
 - [AI Tool Adoption Rubric](#ai-tool-adoption-rubric)  
 - [Implementation Timeline (Faculty PD)](#implementation-timeline-faculty-pd)  
@@ -37,43 +40,45 @@ A practical, step-by-step guide to help teachers plan **responsible, effective A
 - [Acknowledging AI Assistance](#acknowledging-ai-assistance)  
 - [FAQ](#faq)  
 - [Contributing & License](#contributing--license)  
-- [References](#references)  
-- [Changelog](#changelog)
+- [References](#references)
 
 ---
 
-## Module 1 — Responsible, Human-Centred AI Use
+## Module 1 — Responsible, Human‑Centred AI Use
 
 **Principles**
-- Keep **human agency** central; prioritize learning, not automation for its own sake.
-- Provide **opt-outs** and human alternatives when AI assists decisions.
-- Be transparent about **what AI can/can’t do** and its limitations.
+- Keep **human agency** central; AI assists learning but does not replace it.
+- Provide **opt‑outs** and alternative human paths for any AI-enabled activity.
+- Be transparent about **capabilities, limits, bias, and verification**.
+- Do **not** upload personal or student-identifiable data into public tools.
 
-**Class AI Use Agreement (Syllabus snippet — copy/adapt)**
-> **Purpose**: AI can support brainstorming, drafting, and practice. It does **not** replace critical thinking or original work.  
-> **Where allowed**: [e.g., ideation, outline, practice quizzes]. **Where limited**: [e.g., editing only]. **Not allowed**: [e.g., take-home exam answers].  
-> **Privacy**: Do **not** upload personal/student data or assessments with PII.  
-> **Quality & Bias**: Verify facts, check sources, and reflect on bias.  
-> **Credit**: When AI is used, include an “AI Assistance” note (see section below).  
-> **Equity**: Alternative non-AI paths are available for all required tasks.  
-> **Opt-out**: Students may choose human alternatives for AI-enabled features.
+**Class AI Use Agreement (Syllabus snippet — copy/adapt)**  
+> **Purpose**: AI supports brainstorming, drafting, practice, and feedback; it does **not** replace critical thinking or original work.  
+> **Allowed**: ideation, outlines, feedback on clarity, language refinement; tool‑based practice (see major‑specific allowances below).  
+> **Limited**: summarising sources *with citations*; code or design suggestions that require human review.  
+> **Not allowed**: final graded work written by AI; uploading assessment briefs or student PII to public tools.  
+> **Credit**: Include an “AI Assistance” note in submissions.  
+> **Equity**: Non‑AI routes are available for every required task.  
+> **Review**: Policy will be revisited mid‑semester.
+
+**(Optional) 中文课程声明（可直接粘贴到教学大纲）**  
+> 生成式 AI 可用于构思、提纲、练习与语言润色，但**不能**替代独立思考与原创工作。请勿上传任何可识别学生身份的信息；如使用 AI，请在作业末尾添加“AI 协助说明”。为不使用 AI 的同学提供等效的人类方案。
 
 ---
 
-## Module 2 — Choose & Configure Your Main Assistant
+## Module 2 — Choose & Configure Your Assistant
 
-Pick one: **ChatGPT**, **Claude**, **Gemini**, or **Perplexity**. Then **configure** it:
+Pick one: **ChatGPT**, **Claude**, **Gemini**, or **Perplexity**. Then configure it:
 
-- Set audience and level (e.g., “first-year students”), expected output formats, and tone.  
-- Create a **profile prompt** that the assistant sees every time (your teaching context, constraints, and formatting needs).  
-- Turn on **web citations** (if available), and ask for a short “limitations & bias” note in teacher outputs.
+- Set **audience/level** (“first‑year”, “capstone”), **format defaults** (tables, bullet lists), and **tone**.  
+- Add a **profile prompt** that states your course context, output format, and a requirement for **sources + limitations note** in teacher outputs.  
+- For technical courses, enable **code‑friendly** responses (markdown code blocks). For digital media, allow **style constraints**. For sports, request **ethics/privacy reminders**.
 
-**Profile prompt (copy‑paste and edit)**
+**Profile prompt (copy‑edit)**
 ```
-You are a teaching assistant helping [level] students at Stirling College (Chengdu University).
-Default outputs: bullet points + short paragraphs, clear headings, tables when useful.
-Always include sources/links for factual claims and a brief "limitations & bias" note for teacher-facing material.
-Avoid personal data; never request or process PII. Offer differentiated outputs (basic/standard/challenge).
+You are a teaching assistant for [course] in the [Data Science / Digital Media / Sports] major at Stirling College (Chengdu University).
+Default outputs: clear headings, bullet points, tables when useful. Provide sources/links for factual claims and a brief "limitations & bias" note for teacher-facing material.
+Never request or process PII. Offer differentiated outputs (basic/standard/challenge). When generating code or design prompts, add a verification checklist.
 ```
 
 ---
@@ -85,336 +90,342 @@ Avoid personal data; never request or process PII. Offer differentiated outputs 
 Role: You are a [subject] lecturer helping [level] students at Stirling College.
 Task: [create X], aligned to [module outcomes].
 Audience/Tone: [plain, accessible, bilingual if needed].
-Constraints: [time limit, word count, sources to cite, region-specific examples].
-Non-goals: [what to avoid/omit].
-Quality checks: [fact-checking, bias check, add limitations note].
-Output format: [markdown/slide outline/table].
+Constraints: [time limit, word count, sources to cite, local examples].
+Non-goals: [what to avoid].
+Quality checks: [fact-check, add limitations/bias note].
+Output format: [markdown/slide outline/table/code block/storyboard].
 ```
 
 **Reusable techniques**
-- **Zero-shot** (clear instruction, no examples)  
-- **Few-shot** (show 1–3 examples to copy style)  
-- **Meta-prompting** (give a schema/steps to follow)  
-- **Self-consistency** (ask for 3 variants, then a final)  
-- **Generate-knowledge → Answer** (make a bullet fact list, *then* answer)  
-- **Critique & revise** (ask the model to critique its own draft, then improve)
+- **Few‑shot style** (paste a short example to copy voice/format)  
+- **Generate‑facts → Answer** (facts list first, then response)  
+- **Critique & improve** (ask for a critique pass, then revision)  
+- **Self‑consistency** (ask for 3 variants, then a final merged version)
 
-**Prompt Library (copy‑paste)**
-
-1) *Lesson Outline (90 minutes)*  
+**Prompt Library (general)**
+1) *90‑min lesson outline*  
 ```
-Create a 90‑minute lesson plan on [topic] for [level], aligned to these outcomes: [paste].
-Include: timings, activities, checks for understanding, materials list, exit ticket.
-Differentiate with basic/standard/challenge tasks, and add a bilingual glossary (EN/中文).
-Add source links for any facts and a short "limitations & bias" note for teachers.
+Create a 90‑minute lesson on [topic] aligned to [outcomes] with timings, activities, checks for understanding, materials, and an exit ticket.
+Differentiate tasks (basic/standard/challenge). Provide sources and a short "limitations & bias" note for teachers.
 ```
-
-2) *Socratic Questions*  
+2) *Socratic questions*  
 ```
-Generate 10 Socratic questions that progressively lead students to [concept].
-Label by level (starter/core/extension). Include likely misconceptions and how to address them.
+Make 10 Socratic questions leading students from intuition to formal reasoning about [concept]. Include common misconceptions.
 ```
-
-3) *Quiz + Rationales*  
+3) *Quiz + rationales*  
 ```
-Create a 6‑question mixed quiz (MCQ + short answer) on [topic] with an answer key and short rationales.
-Tag each question with Bloom’s level and common distractors.
-```
-
-4) *Differentiated Reading*  
-```
-Write two versions of a reading on [topic]:
-- 300 words (simple), - 600 words (standard). Add a 10‑term glossary with CEFR level.
-```
-
-5) *Rubric Builder*  
-```
-Make a 4‑level analytic rubric for [task], aligned to [outcomes]. Criteria: [list].
-Add examples for each performance level. Provide a 1‑minute oral defense prompt.
-```
-
-6) *Code Lab (step‑check)*  
-```
-Design a short lab where students implement [algorithm] in [language].
-Provide step checks: inputs/expected outputs after each step, and 3 common bugs with fixes.
-```
-
-7) *ELL/ESP Speaking Drills*  
-```
-Create 5 short role‑plays for [context], targeting [vocab/grammar].
-Include teacher notes: prompts to elicit, error‑correction strategies, and cultural notes (EN/中文).
+6‑question mixed quiz (MCQ + short answer) on [topic] with answer key, 1‑sentence rationales, and Bloom's tags.
 ```
 
 ---
 
-## Module 4 — Lesson Planning with AI (Workflow + Examples)
+## Module 4 — Lesson Planning (Workflow + Examples)
 
-**Outcome‑first workflow (about 60 minutes)**
-1) Paste module outcomes + week topic; ask for a **90‑min active‑learning lesson** with checks for understanding.  
-2) Generate **materials**: slides outline, short reading, exit ticket.  
-3) **Differentiate**: request basic/standard/challenge versions and multilingual glossary.  
-4) **Verification pass**: require source links; then manually **spot‑check**.
+**Outcome‑first workflow (≈60 minutes)**
+1) Paste outcomes + week topic → ask for an active learning plan with checks for understanding.  
+2) Generate materials: slides outline, short reading, exit ticket.  
+3) Differentiate: create basic/standard/challenge variants and a multilingual glossary.  
+4) Verification pass: require links; manually spot‑check and adapt to local context.
 
-**Example: Week 3 – Academic Writing (Paraphrasing & Citation)**  
-- *Activities*: AI‑generated practice pairs (original → paraphrase → teacher feedback checklist), peer review using a rubric, 5‑item exit ticket.  
-- *Materials*: Two readings (300/600 words) with vocabulary list; MLA/APA citation mini‑guide; academic integrity reminder.  
-- *Assessment*: In‑class paraphrase with **source attached** + reflection (“What did AI help with? What did you change?”).
+### Examples by Major
 
-**Example: Calculus – Product Rule**  
-- Warm‑up retrieval (derivative basics), guided examples with **error‑spotting**, partner practice set with increasing difficulty, mini‑whiteboard checks, and a 2‑minute oral explanation prompt.
+**Data Science — Week 4: Supervised Learning & Overfitting**  
+- *Activities*: mini‑lab fitting a small model, **error analysis walk‑through**, and a **hold‑out vs. CV** comparison.  
+- *Materials*: 300/600‑word reading on bias‑variance with 10‑term glossary.  
+- *Exit ticket*: 3 items on leakage, validation strategy, and metric trade‑offs.
 
-**Example: CS – Sorting Algorithms Lab**  
-- Implement selection sort, then compare to built‑in sort on random arrays; include **step checks** and 3 common bug patterns; reflection on time complexity.
+**Digital Media — Week 5: Storyboarding for Short‑Form Video**  
+- *Activities*: group storyboard challenge with **shot list templates**, AI‑generated alternative angles, and peer critique rubric.  
+- *Materials*: mood boards and script beat‑sheet; accessibility note (captions/alt text).  
+- *Exit ticket*: upload storyboard + 100‑word creative rationale.
+
+**Sports — Week 3: Intro to Performance Analytics**  
+- *Activities*: small data exploration of match events; **KPIs vs. context** discussion; practice creating a **shot map** or **sprint profile**.  
+- *Materials*: glossary (EN/中文) for common metrics; privacy/ethics mini‑brief.  
+- *Exit ticket*: pick one KPI, justify why it is **valid** and **actionable** for a coach.
 
 ---
 
-## Module 5 — Assessment, Integrity & the AI Assessment Scale
+## Module 5 — Assessment, Integrity & AI Levels
 
-Use an **AI Assessment Scale** to clarify where/when AI fits in assessment (Levels 1–5 from “No AI” → “AI as co‑pilot”).
-
-**Examples by level**
-- **Level 1 (No AI)**: In‑class closed‑book quiz; oral micro‑viva on homework logic.  
-- **Level 2 (AI limited)**: AI allowed for **outline only**; submit outline with final essay and a change log.  
-- **Level 3 (AI permitted)**: Drafting with AI allowed; student must provide **process evidence** (prompts, selected outputs, revisions).  
-- **Level 4 (AI partner)**: Student co‑creates with AI; graded on **prompt quality**, **verification**, and **reflection**.  
-- **Level 5 (AI as toolchain)**: Project journals track use of multiple tools; emphasis on design decisions and human judgment.
+**AI Levels (set per assignment)**
+1) **No AI** — closed‑book quizzes, in‑class derivations/orals.  
+2) **AI limited** — outlines/brainstorming allowed; final text/code/design is student‑authored.  
+3) **AI permitted** — drafting with AI allowed; submit **process evidence** (prompts, outputs, change log).  
+4) **AI partner** — co‑creation; grade prompt quality, verification, and reflection.  
+5) **AI toolchain** — complex projects; grade planning, tool orchestration, and decisions.
 
 **Integrity without detectors**
-- Collect **process artifacts** (notes, drafts, version history).  
-- Use **oral verifications** (1–3 minute defenses).  
-- Design **context‑specific prompts** that require class‑specific data, diagrams, or local examples.  
-- Make **rubrics** value reasoning, evidence, and reflection, not just final wording.
+- Collect **process artifacts** (drafts, prompt history, version diffs).  
+- Use **micro‑vivas** (1–3 minutes) to confirm understanding.  
+- Localise tasks (datasets, assets, campus context) to reduce generic outputs.
 
 ---
 
 ## Module 6 — Accessibility & Inclusive Design
 
-- Use AI to **adapt** readings (simplify language, add examples, bilingual glossaries) and generate **multiple means of engagement**.  
-- Follow **UDL (Universal Design for Learning)** and ensure equitable access when adopting tools.  
-- Ask AI to draft **alt text** and **transcripts**, then review.
+- Generate bilingual glossaries, plain‑language versions, and reading/listening alternatives.  
+- Ask AI to draft **alt text**, **captions**, and **transcripts** (then review).  
+- Offer multiple means of action/expression: code, essay, presentation, prototype.
 
 **Alt‑Text Prompt**
 ```
-Write concise, descriptive alt text (max 125 chars) for this image: [paste brief description].
-Include the pedagogical intent (what learners should notice).
+Write concise alt text (≤125 chars) for an image of [describe]. Include the learning focus (what students should notice).
 ```
 
 ---
 
-## Module 7 — Data Privacy & Risk Awareness
+## Module 7 — Data Privacy & Risk (per major)
 
-- Define AI/GenAI in **plain language** for students and staff.  
-- Avoid uploading any **student‑identifiable data**; keep custom assistants **private**.  
-- Review third‑party tool **data policies**, **retention**, and **model‑training** settings.  
-- Provide **opt‑out** paths and equivalent human alternatives.
+**Data Science**  
+- Never upload raw datasets containing PII to public tools.  
+- Prevent **data leakage** (train/test contamination) when co‑creating with AI.  
+- Document sources; avoid fabricated citations; verify statistics.
 
-**Privacy Checklist (copy‑paste)**
-- [ ] No PII/student work uploaded to public tools  
-- [ ] Tool vendor’s data use/retention reviewed  
-- [ ] Access limited to staff who need it; revoke when not needed  
-- [ ] Opt‑out and alternatives communicated in syllabus/assignment  
-- [ ] School storage/backups follow policy
+**Digital Media**  
+- Respect **copyright & licenses** (assets, fonts, models).  
+- Disclose synthetic media use; avoid deepfake likenesses without consent.  
+- Provide accessible outputs (captions, transcripts, colour‑contrast).
 
----
-
-## Module 8 — Build a Course-Specific Custom GPT (Optional)
-
-- Upload only materials you **own** or can share (syllabus, rubrics, anonymized handouts).  
-- Write instructions that reflect course standards, age level, and inquiry‑based learning.  
-- Keep it **private**; disclose if students will interact with it; provide **human alternatives** (opt‑out).
-
-**Seed files to include**
-- Syllabus, weekly outcomes, exemplar answers (teacher‑only), rubrics, style guides, frequent misconceptions, bilingual glossary.
+**Sports**  
+- Athlete data is **sensitive**: anonymise, aggregate, or use public/open data.  
+- Do not publish identifiable performance/health data without consent.  
+- Consider context: metrics should inform coaching decisions, not stigmatise athletes.
 
 ---
 
-## Tools Directory (Teacher-Friendly Picks)
+## Module 8 — Custom Course Assistant (Optional)
 
-**Chat & research**
-- [ChatGPT](https://chat.openai.com) · [Claude](https://claude.ai) · [Gemini](https://gemini.google.com) · [Perplexity](https://www.perplexity.ai)
+- Upload materials you **own** or can share: syllabus, outcomes, rubrics, exemplar answers (teacher‑only), misconceptions, bilingual glossary.  
+- Keep it **private**; disclose to students; always provide a **non‑AI alternative**.
 
-**Lesson planning / class utilities**
-- [MagicSchool AI](https://www.magicschool.ai) · [Eduaide](https://www.eduaide.ai) · [Brisk Teaching](https://www.briskteaching.com) · [Curipod](https://curipod.com) · [Quizizz AI](https://quizizz.com) · [NotebookLM](https://notebooklm.google/) · [Canva](https://www.canva.com)
-
-**Extra research helpers**
-- [Elicit](https://elicit.org) · [Hugging Face Chat](https://huggingface.co/chat)
-
-**Image/visual**
-- [Canva](https://www.canva.com) · [DALL·E](https://openai.com/research/dall-e) · [Midjourney](https://www.midjourney.com)
-
-> Use the **AI Tool Adoption Rubric** below before adding new tools to your course.
+**Seed instruction add‑ons by major**  
+- *Data Science*: prefer **explainable baselines** before advanced models; include **evaluation checklists**.  
+- *Digital Media*: enforce **attribution rules**; add a “style constraints & originality” reminder.  
+- *Sports*: add **ethics prompts** and **data‑minimisation** defaults.
 
 ---
 
-## Discipline Spotlights (Concrete Use Cases)
+## Tools by Major
 
-**1) English Composition (Year 1)**  
-- *AI‑assisted task*: generate **outline options** for a compare/contrast essay; students choose and revise.  
-- *Process evidence*: include AI prompts, 1 draft with tracked changes, and a 150‑word reflection.  
-- *Rubric highlights*: thesis clarity, evidence integration, citation accuracy, reflection quality.
+**Common chat & research**  
+- ChatGPT · Claude · Gemini · Perplexity  
+- Elicit (paper discovery) · NotebookLM (source‑grounded notes)  
+- Canva (quick visuals)
 
-**2) Mathematics (Calculus I – Product Rule)**  
-- *Warm‑up*: retrieval quiz (no AI).  
-- *Practice*: AI generates **errorful** examples; students fix and explain.  
-- *Exit ticket*: 3 problems mixing symbolic and word problems.
+**Data Science** (teaching‑friendly)  
+- **Python**: Jupyter/Colab, pandas, numpy, scikit‑learn, matplotlib/plotly  
+- **DL**: PyTorch/TensorFlow (intro labs), Keras  
+- **Data**: Kaggle Datasets, UCI ML Repository  
+- **MLOps (lightweight)**: DVC, Weights & Biases (education tiers)  
+- **Visualization**: Tableau Public / Power BI Desktop / Plotly
 
-**3) Computer Science (Intro Python)**  
-- *Lab*: implement search on a list; **step checks** after each function.  
-- *Debugging*: ask AI to produce **3 buggy snippets**; students diagnose with tests.
+**Digital Media**  
+- **Design**: Canva, Figma (education), Adobe Express/Firefly (check licenses)  
+- **3D/Animation**: Blender  
+- **Video**: DaVinci Resolve, CapCut (education)  
+- **Audio**: Audacity, Ocenaudio  
+- **Image gen**: DALL·E, Midjourney (use ethically; disclose)
 
-**4) Business (Marketing)**  
-- *Case*: AI drafts two customer personas for Chengdu context; students validate with real data sources.  
-- *Assessment*: pitch deck with **sources** and annotated AI contributions.
+**Sports**  
+- **Analysis**: Tableau Public, Power BI, Python (pandas, numpy), R (tidyverse)  
+- **Video tagging**: LongoMatch, Kinovea (motion review)  
+- **Open data**: StatsBomb open data, FiveThirtyEight archives (for teaching)  
+- **Pose/vision (advanced)**: OpenPose/MediaPipe (for labs with consented, public videos)
 
-**5) Health/Nursing (Ethics & Communication)**  
-- *Role‑play*: difficult patient conversation scripts (EN/中文).  
-- *Reflection*: students critique AI’s script for empathy, clarity, and safety.
+> Always check institutional approvals and licenses before using external tools with students.
 
-**6) Engineering (Materials Lab)**  
-- *Pre‑lab*: AI generates hazard checklist + measurement table.  
-- *Report*: students submit raw data, calculations, and **method diagram** drawn by themselves.
+---
 
-**7) EFL / ESP (Speaking)**  
-- *Drills*: role‑plays for hotel check‑in / hospital triage; include pronunciation tips.  
-- *Assessment*: recorded dialogue + short oral defense of vocabulary choices.
+## Assignments by Major (Templates)
 
-**8) Art & Design (Visual Communication)**  
-- *Brief*: AI helps create a style board and constraint list; students produce original work.  
-- *Studio critique*: rubric emphasizes composition decisions and iteration notes.
+### Data Science
+
+**A1: Model‑Building with Process Evidence (Level 3)**  
+- Deliverables: notebook with EDA → baseline → tuned model; **change log**; 200‑word reflection on trade‑offs.  
+- Integrity: submit prompts/outputs if AI helped; micro‑viva (2 minutes).  
+- Rubric: problem framing, data handling, evaluation validity, reasoning, reflection.
+
+**A2: Responsible AI Card (Level 2–3)**  
+- Students create a **model card** for a small classifier (task, data, metrics, risks, intended uses/misuses).  
+- Include fairness checks (subgroup errors) on synthetic subsets.
+
+**A3: Reproducible Mini‑Challenge (Level 4–5)**  
+- Team builds a small pipeline (DVC or saved notebooks) on a public dataset; includes README + run steps; bonus for CI checks.
+
+**Starter prompts**  
+```
+Suggest three strong baseline models for [dataset description], with a plan to compare validation strategies (hold-out vs k-fold). Provide a checklist to avoid data leakage.
+```
+```
+Critique this confusion matrix and propose two concrete ways to improve recall without collapsing precision. Explain the trade-offs.
+```
+
+### Digital Media
+
+**A1: Storyboard + Shot List (Level 2–3)**  
+- Deliverables: storyboard (8–12 frames), beat sheet, 60‑sec video plan, accessibility plan (captions/alt text).  
+- Integrity: AI may suggest camera angles; student must justify choices and originality.
+
+**A2: Brand Style Guide (Level 3)**  
+- Create a 1‑page style guide (typography, palette, imagery rules) for a campus club; include licensing notes and alt‑text patterns.
+
+**A3: Short Video Prototype (Level 3–4)**  
+- 30–60s edit with captions and credits; submit process files and a 150‑word reflection on **ethical use of AI assets**.
+
+**Starter prompts**  
+```
+Generate three alternative storyboard approaches for a 60-second video promoting [topic]. For each, include key shots, framing, transition ideas, and a risk note about overuse of synthetic assets.
+```
+```
+Draft alt text and caption templates for a motion-graphics video that highlights [concept]. Include a checklist for accessibility.
+```
+
+### Sports (Analytics, Coaching & Management)
+
+**A1: KPI Brief for a Coach (Level 2–3)**  
+- Pick a team sport; define 3 KPIs, how to **measure**, **contextualise**, and **act** on them.  
+- Include ethical/privacy considerations and communication for athletes.
+
+**A2: Match/Session Analysis Notebook (Level 3)**  
+- Use public match events or GPS‑like synthetic data to build a small dashboard (possession, shot quality, sprints).  
+- Submit code, visuals, and 200‑word coaching recommendations.
+
+**A3: Recruitment/Scouting Report (Level 3–4)**  
+- Compare two players with role‑appropriate metrics; justify validity; add a **limitations** section.
+
+**Starter prompts**  
+```
+Given [sport] match event data, generate three coach-facing visualisations (titles + rationale) that are actionable within a 5-minute halftime briefing.
+```
+```
+Propose an ethics checklist for collecting and analysing athlete performance data in a university setting. Include minimisation and consent.
+```
+
+---
+
+## Capstone Ideas by Major
+
+**Data Science**
+1) **Campus Energy Forecasting** — time‑series models for building energy; optimisation suggestions with uncertainty ranges.  
+2) **Student Support Early Signals** — privacy‑preserving risk flagging with explainable baselines; fairness checks.
+
+**Digital Media**
+1) **Interactive Museum Guide** — multilingual micro‑stories and AR wayfinding prototypes; accessibility by design.  
+2) **Local Business Creative Suite** — brand system + templates + short‑form content pack; licensing audit.
+
+**Sports**
+1) **Performance Insights Toolkit** — open‑data dashboards (shot maps, press intensity) with coach‑friendly briefs.  
+2) **Injury‑Risk Communication Guide** — literature synthesis + prototype of **non‑stigmatizing** decision aids for staff.
 
 ---
 
 ## Policy Templates & Examples
 
-### A) Syllabus AI Use Statement (copy/adapt)
+### Syllabus AI Use Statement (copy/adapt)
 
-- **Allowed**: brainstorming ideas, outlines, language refinement;  
-- **Limited**: summarizing sources *with citations*;  
-- **Not allowed**: generating final assignment text, take‑home exam answers.  
-- **Privacy**: do not upload personal data or identifiable student work.  
+- **Allowed**: brainstorming, outlines, language refinement; discipline‑specific suggestions (see majors).  
+- **Limited**: summarising sources with references; design/code suggestions (human review required).  
+- **Not allowed**: final graded work produced by AI.  
+- **Privacy**: no PII/student work in public tools; use approved platforms only.  
 - **Acknowledgement**: include an “AI Assistance” note in submissions.  
-- **Opt‑out**: human alternatives available for any required AI feature.
+- **Opt‑out**: human alternatives for any required AI feature.
 
-### B) By-Assignment Examples
-
-- **Reading response**: AI allowed to **outline** and **clarify**, student writes final text; attach outline + reflection.  
-- **Lab report**: AI allowed to **format** and **grammar‑check**; raw data analysis and discussion are student‑authored.  
-- **Oral viva**: AI may help generate **practice questions**; exam is in‑person, AI‑free (controlled).
-
-### C) Classroom Practice Ideas
-- Generate exercises, adapt texts to levels/ages, and pilot feedback reports; evaluate quality and limits; revert to **handwritten** or **in‑class** when needed.  
-- Use AI‑generated texts as objects to **edit, verify sources, change register**, and **critique**.
+### By‑Assignment Examples
+- **Reading response**: AI for outline/clarify; student writes final; attach outline + reflection.  
+- **Lab report**: AI for formatting/grammar; analysis and interpretation are student‑authored.  
+- **Oral viva**: AI may generate practice questions; in‑person assessment is AI‑free.
 
 ---
 
 ## AI Tool Adoption Rubric
 
-Score prospective tools (1–5) on:
-
-1) **Accuracy & Learning Value** (aligns with outcomes; improves engagement/understanding)  
-2) **Transparency** (explains limitations; shows sources when relevant)  
-3) **Privacy & Data Minimization** (no PII required; clear data practices; retention controls)  
-4) **Accessibility/UDL** (works with AT; multilingual support; low‑bandwidth options)  
-5) **Equity & Inclusion** (doesn’t disadvantage subgroups; supports diverse languages/cultures)  
-6) **Opt‑out Availability** (human alternative for any AI‑enabled decision or feature)
+Score candidate tools (1–5):
+1) **Accuracy & Learning Value**  
+2) **Transparency** (limitations, sources)  
+3) **Privacy & Data Minimisation**  
+4) **Accessibility/UDL**  
+5) **Equity & Inclusion**  
+6) **Opt‑out Availability** (human alternative)
 
 **Example (filled)**  
-| Criterion | Score (1–5) | Evidence/Notes |
+| Criterion | Score | Evidence/Notes |
 |---|:--:|---|
-| Accuracy & Learning Value | 4 | Quiz generator aligned to outcomes; teacher review needed |
-| Transparency | 3 | Gives links but some are generic |
-| Privacy & Minimization | 4 | Opt‑out of training; no account needed for students |
-| Accessibility/UDL | 3 | Works on mobile; needs better screen‑reader support |
-| Equity & Inclusion | 4 | Multilingual; examples can be localized |
-| Opt‑out Availability | 5 | Full human‑only path available |
+| Accuracy & Learning Value | 4 | Good alignment; teacher review needed |
+| Transparency | 3 | Links present, but generic |
+| Privacy & Minimisation | 4 | Student accounts not required |
+| Accessibility/UDL | 3 | Works on mobile; test with screen readers |
+| Equity & Inclusion | 4 | Multilingual features |
+| Opt‑out Availability | 5 | Full human path available |
 
 ---
 
 ## Implementation Timeline (Faculty PD)
 
-**Week 0** — Share this guide; collect course outcomes; choose 1 assistant tool.  
-**Week 1** — Publish Class AI Use Statement; run a 45‑min prompting workshop.  
-**Week 2** — Pilot 1 AI‑supported lesson; gather student feedback.  
-**Week 3** — Adjust policy; design 1 assessment with clear AI level; create rubrics.  
+**Week 0** — Share this guide; pick one assistant; gather outcomes.  
+**Week 1** — Publish AI Use Statement; 45‑min prompting workshop.  
+**Week 2** — Pilot one AI‑supported lesson per major; collect feedback.  
+**Week 3** — Adjust policy; design one assessment with explicit AI level.  
 **Week 4+** — Build a small prompt library per module; consider a private course assistant.
 
 ---
 
 ## Custom GPT Instruction Template
 
-Paste this into your assistant’s “system/instructions”:
-
+Paste into your assistant’s “system/instructions”:
 ```
 You are a course assistant for [Course Name] at Stirling College (Chengdu University).
 Goals: Support [level] students to meet [learning outcomes].
 Do:
-- Use plain language; scaffold explanations; offer structured outlines and examples.
+- Use plain language; scaffold explanations; offer structured outlines, examples, and checklists.
 - Ask one clarifying question only if essential to meet the request.
 - Provide sources/links for factual claims; flag uncertainty and common misconceptions.
-- Offer differentiated outputs (basic/standard/challenge) when preparing materials.
+- Offer differentiated outputs (basic/standard/challenge).
 - Respect privacy: never request or process PII or student-identifiable work.
 - Include a short “limitations & bias check” note for teacher-facing outputs.
 
 Don’t:
 - Produce final graded work or complete summative assessments.
-- Fabricate citations or statistics; if unsure, say so and propose how to verify.
+- Fabricate citations or statistics; if unsure, say so and propose verification.
 - Store or reuse any user content beyond the current session.
 
 Formatting defaults:
 - Use markdown with headings, bullet lists, and tables when helpful.
-- End teacher materials with a quick verification checklist.
-
-Ethics & Safety:
-- Avoid harmful/biased content; offer inclusive, culturally aware examples.
-- Provide human alternatives for any AI-enabled suggestion (opt-out).
+- For Data Science: prefer simple, explainable baselines before advanced models; include evaluation checklists.
+- For Digital Media: enforce attribution/licensing and originality reminders; add accessibility notes.
+- For Sports: emphasise data minimisation, consent, and coach-facing clarity.
 ```
 
 ---
 
 ## Acknowledging AI Assistance
-
-Students (and staff) should credit AI support succinctly, e.g.:
-
-> “**AI Assistance**: ChatGPT used for brainstorming structure and drafting a study plan. Sources were verified and all writing was reviewed and revised by the author.”
-
-This encourages transparency without overstating reliance.
+> “**AI Assistance**: [Tool] used for brainstorming structure and producing draft prompts. All outputs were reviewed, sources verified, and revised by the author.”
 
 ---
 
 ## FAQ
-
-**Q1: Should I use AI detectors?**  
-A: Use with extreme caution; false positives/negatives are common. Focus on **process evidence**, **oral checks**, and **context‑specific tasks** instead.
-
-**Q2: Can students upload data to tools?**  
-A: Avoid uploading PII or identifiable student work to public tools. Prefer local files or institutionally approved platforms.
-
-**Q3: How do I grade AI‑assisted work fairly?**  
-A: Make AI permissions explicit per assignment; grade on reasoning, evidence, and reflection. Require a brief “AI Assistance” note.
-
-**Q4: What about accessibility?**  
-A: Generate alternative formats (summaries, audio transcripts, bilingual glossaries). Test with screen readers when possible.
+**Should we use AI detectors?** Use with caution; rely on process evidence and oral checks instead.  
+**Can students upload data to tools?** Avoid PII; use approved platforms; anonymise when possible.  
+**How to grade AI‑assisted work?** Make permissions explicit; grade reasoning, evidence, reflection; require an AI note.
 
 ---
 
 ## Contributing & License
-
-Pull requests welcome (examples, prompt libraries, discipline‑specific lesson plans).  
+Pull requests welcome (major‑specific examples, prompt libraries, labs).  
 License: **CC BY 4.0** unless otherwise noted.
 
 ---
 
 ## References
-
-- **UNESCO – Guidance for Generative AI in Education & Research (2023)** — human‑centred approach; inclusion, equity, and linguistic diversity; policy measures for GenAI in education. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
-- **U.S. Dept. of Education — AI in Teaching & Learning (Toolkit, 2024)** — plain‑language definitions, privacy/civil‑rights considerations, examples for leaders and teachers. https://tech.ed.gov/ai/
-- **TeachAI / Code.org — AI Guidance for Schools (living resource)** — governance, assessment, classroom practice. https://teachai.org/
-- **UDL Guidelines (CAST)** — design for learner variability and accessibility. https://udlguidelines.cast.org/
-- **Common Sense Education — Privacy & Security** — K‑12 privacy overviews and tool reviews. https://commonsense.org/education/topics/privacy
+- UNESCO — *Guidance for Generative AI in Education & Research* (human‑centred, inclusion, equity).  
+- U.S. Dept. of Education — *AI in Teaching & Learning* (definitions, privacy/civil‑rights considerations).  
+- TeachAI / Code.org — *AI Guidance for Schools* (governance, assessment, classroom practice).  
+- CAST — *UDL Guidelines* (accessibility and learner variability).  
+- Common Sense Education — *Privacy & Security* (tool reviews, K‑12 privacy).
 
 ---
 
 ## Changelog
-
-- **v1.1 (expanded)** — Added prompt library, discipline spotlights, rubric example, PD timeline, FAQ.  
+- **v1.2 (majors edition)** — Tailored examples, tools, assignments, and capstones for Data Science, Digital Media, and Sports.  
+- **v1.1 (expanded)** — Prompt library, discipline spotlights, rubric example, PD timeline, FAQ.  
 - **v1.0** — Initial guide with modules, tools, templates.
