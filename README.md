@@ -805,9 +805,9 @@ Process-Focused Assessment:
 
 ## Rubrics (Download & Adapt)
 
-- **Data Science**: [CSV](/mnt/data/rubric_data_science.csv) · [Markdown](/mnt/data/rubric_data_science.md)  
-- **Digital Media**: [CSV](/mnt/data/rubric_digital_media.csv) · [Markdown](/mnt/data/rubric_digital_media.md)  
-- **Sports**: [CSV](/mnt/data/rubric_sports.csv) · [Markdown](/mnt/data/rubric_sports.md)
+- **Data Science**: [CSV](rubrics/rubric_data_science.csv) · [Markdown](rubrics/rubric_data_science.md)  
+- **Digital Media**: [CSV](rubrics/rubric_digital_media.csv) · [Markdown](rubrics/rubric_digital_media.md)  
+- **Sports**: [CSV](rubrics/rubric_sports.csv) · [Markdown](rubrics/rubric_sports.md)
 
 ### **AI Integration Assessment Rubrics**
 
