@@ -1,12 +1,10 @@
-# AI in Teaching @ Stirling College (Chengdu University)
+# AI in Teaching 
 
 A practical, step-by-step guide to help teachers plan **responsible, effective AI use** in courses — from policy and prompting to lessons, assessment, accessibility, and risk. This version includes **many concrete examples** you can copy‑paste into teaching.
 
-> Tip: Create a repo called `ai-in-teaching` and put this as your root `README.md`. Add an `/assets` folder later for screenshots or banners.
-
 ---
 
-## Quick Start (10 minutes)
+## Quick Start
 
 1) **Pick one main assistant** you’ll use this term  
    Recommended: [ChatGPT](https://chat.openai.com), [Claude](https://claude.ai), [Gemini](https://gemini.google.com), [Perplexity](https://www.perplexity.ai).  
