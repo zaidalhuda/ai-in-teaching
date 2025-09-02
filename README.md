@@ -5,9 +5,11 @@
 
 A practical, step-by-step guide to help teachers use AI responsibly and effectively in **all three Stirling College majors**. Everything is organized with concrete, copy-paste examples, prompts, and assignments tailored to **Data Science**, **Digital Media**, and **Sports** (analytics, coaching & management).
 
+> Tip: Put this file at the root of your repo as `README.md`. Add an `/assets` folder later for screenshots or banners.
+
 ---
 
-## Quick Start
+## Quick Start (10 minutes)
 
 1) **Pick one main assistant** you’ll use this term  
    Recommended: [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)
@@ -17,6 +19,8 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 
 3) **Pilot one AI-supported lesson** this week (Module 4)  
    Use AI for ideation, materials, and differentiation — then **verify** and **cite** sources.
+
+> **Stirling alignment:** Focus on academic integrity, transparency about AI use, and process evidence—detectors are unreliable; use oral checks and artefacts instead.
 
 ---
 
@@ -51,6 +55,7 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 - Provide **opt-outs** and alternative human paths for any AI-enabled activity.
 - Be transparent about **capabilities, limits, bias, and verification**.
 - Do **not** upload personal or student-identifiable data into public tools.
+- **Policy note (Stirling):** Set expectations by assignment; require students to **acknowledge AI use** and submit **process evidence** where AI is allowed.
 
 **Class AI Use Agreement (Syllabus snippet — copy/adapt)**  
 > **Purpose**: AI supports brainstorming, drafting, practice, and feedback; it does **not** replace critical thinking or original work.  
@@ -60,6 +65,9 @@ A practical, step-by-step guide to help teachers use AI responsibly and effectiv
 > **Credit**: Include an “AI Assistance” note in submissions.  
 > **Equity**: Non-AI routes are available for every required task.  
 > **Review**: Policy will be revisited mid-semester.
+
+**(Optional) 中文课程声明（可直接粘贴到教学大纲）**  
+> 生成式 AI 可用于构思、提纲、练习与语言润色，但**不能**替代独立思考与原创工作。请勿上传任何可识别学生身份的信息；如使用 AI，请在作业末尾添加“AI 协助说明”。为不使用 AI 的同学提供等效的人类方案。
 
 ---
 
@@ -174,6 +182,8 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 
 ## Module 7 — Data Privacy & Risk (per major)
 
+> **Minimums:** Prefer privacy-preserving workflows, clear consent, and **opt-out** paths. For higher-risk uses, pilot small and monitor.
+
 **Data Science**  
 - Never upload raw datasets containing PII to public tools.  
 - Prevent **data leakage** (train/test contamination) when co-creating with AI.  
@@ -212,8 +222,8 @@ Write concise alt text (≤125 chars) for an image of [describe]. Include the le
 
 **Data Science** (teaching-friendly)  
 - **[Python](https://www.python.org/)**: Jupyter/Colab, [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [scikit-learn](https://scikit-learn.org/), matplotlib/plotly  
-- **DL**: PyTorch/TensorFlow (intro labs), [Keras](https://keras.io/)
-- **Data**: [Kaggle Datasets](https://www.kaggle.com/datasets), [UCI ML Repository](https://archive.ics.uci.edu/)
+- **DL**: PyTorch/TensorFlow (intro labs), [Keras](https://keras.io/)  
+- **Data**: [Kaggle Datasets](https://www.kaggle.com/datasets), [UCI ML Repository](https://archive.ics.uci.edu/)  
 - **MLOps (lightweight)**: [DVC](https://dvc.org/), [Weights & Biases](https://wandb.ai/) (education tiers)  
 - **Visualization**: [Tableau Public](https://public.tableau.com/) / [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop) / [Plotly](https://plotly.com/python/)
 
@@ -326,7 +336,8 @@ Propose an ethics checklist for collecting and analysing athlete performance dat
 - **Not allowed**: final graded work produced by AI.  
 - **Privacy**: no PII/student work in public tools; use approved platforms only.  
 - **Acknowledgement**: include an “AI Assistance” note in submissions.  
-- **Opt-out**: human alternatives for any required AI feature.
+- **Opt-out**: human alternatives for any required AI feature.  
+- **Stirling note**: Reference your school/department’s current AI guidance in assessment briefs.
 
 ### By-Assignment Examples
 - **Reading response**: AI for outline/clarify; student writes final; attach outline + reflection.  
@@ -387,7 +398,7 @@ Don’t:
 - Store or reuse any user content beyond the current session.
 
 Formatting defaults:
-- Use markdown with headings, bullet lists, and tables when helpful.
+- Use markdown with headings, bullet points, and tables when helpful.
 - For Data Science: prefer simple, explainable baselines before advanced models; include evaluation checklists.
 - For Digital Media: enforce attribution/licensing and originality reminders; add accessibility notes.
 - For Sports: emphasise data minimisation, consent, and coach-facing clarity.
@@ -407,16 +418,15 @@ Formatting defaults:
 
 ---
 
-
----
-
 ## Rubrics (Download & Adapt)
 
-- **Data Science**: [CSV](rubrics/rubric_data_science.csv) · [Markdown](rubrics/rubric_data_science.md)
-- **Digital Media**: [CSV](rubrics/rubric_digital_media.csv) · [Markdown](rubrics/rubric_digital_media.md)
-- **Sports**: [CSV](rubrics/rubric_sports.csv) · [Markdown](rubrics/rubric_sports.md)
+- **Data Science**: [CSV](/mnt/data/rubric_data_science.csv) · [Markdown](/mnt/data/rubric_data_science.md)  
+- **Digital Media**: [CSV](/mnt/data/rubric_digital_media.csv) · [Markdown](/mnt/data/rubric_digital_media.md)  
+- **Sports**: [CSV](/mnt/data/rubric_sports.csv) · [Markdown](/mnt/data/rubric_sports.md)
 
 > Tip: Place these files in a `/rubrics` folder in your repo. You can also import the CSVs into Google Sheets or Excel and tweak weights/wording per assignment.
+
+---
 
 ## Contributing & License
 Pull requests welcome (major-specific examples, prompt libraries, labs).  
@@ -425,15 +435,9 @@ License: **CC BY 4.0** unless otherwise noted.
 ---
 
 ## References
-- UNESCO — *Guidance for Generative AI in Education & Research* (human-centred, inclusion, equity).  
-- U.S. Dept. of Education — *AI in Teaching & Learning* (definitions, privacy/civil-rights considerations).  
-- TeachAI / Code.org — *AI Guidance for Schools* (governance, assessment, classroom practice).  
-- CAST — *UDL Guidelines* (accessibility and learner variability).  
-- Common Sense Education — *Privacy & Security* (tool reviews, K-12 privacy).
+- **UNESCO** — *Guidance for Generative AI in Education & Research* (human-centred, inclusion, equity).  
+- **U.S. Dept. of Education (Office of EdTech)** — *Empowering Education Leaders: A Toolkit for Safe, Ethical, and Equitable AI Integration* (privacy, civil rights, opt-outs).  
+- **Stirling (internal policy summary)** — *AI in Teaching & Assessments Workshop (Autumn 2024)* — staff/student guidance highlights on assessment and disclosure.  
+- **Stirling College / Data Science** — *Programme Handbook (2023–2024)* — assessment & integrity context for DS modules.  
+- **Teachers’ prompting & critical use** — *Ways to Use AI Critically in the Classroom* — prompt-building, bias checks.
 
----
-
-## Changelog
-- **v1.2 (majors edition)** — Tailored examples, tools, assignments, and capstones for Data Science, Digital Media, and Sports.  
-- **v1.1 (expanded)** — Prompt library, discipline spotlights, rubric example, PD timeline, FAQ.  
-- **v1.0** — Initial guide with modules, tools, templates.
