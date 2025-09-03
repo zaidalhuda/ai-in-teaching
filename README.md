@@ -198,7 +198,25 @@ Now create 3 similar questions for [topic]."
 ```
 "Explain how to solve this problem step by step, showing reasoning at each stage."
 ```
+### Official Prompting Resources
 
+**Anthropic (Claude) Prompting Guides:**
+- [Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Comprehensive starting guide
+- [Claude 4 Best Practices](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices) - Latest model-specific techniques
+- [Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Hands-on learning with examples
+- [System Prompts & Role Playing](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts) - Setting AI personas
+- [Multishot Prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting) - Using examples effectively
+- [Prompt Library](https://docs.anthropic.com/en/resources/prompt-library/library) - Ready-made prompts for various tasks
+- [Intro to Prompting](https://docs.anthropic.com/claude/docs/intro-to-prompting) - Basic concepts and principles
+
+**OpenAI (ChatGPT) Prompting Guides:**
+- [Official Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Core techniques and strategies  
+- [Best Practices Help Center](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api) - Practical implementation tips
+- [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) - Latest model optimization
+- [ChatGPT Prompt Engineering Course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - Free course by DeepLearning.AI & OpenAI
+
+**Additional Learning Resources:**
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive community-driven resource with latest techniques and research
 ---
 
 ## Module 5 - Lesson Planning with AI
