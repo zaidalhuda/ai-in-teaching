@@ -1,6 +1,8 @@
 # AI in Teaching: A Comprehensive Guide for Educators
 **Transform your classroom with responsible AI integration**
+ 
  By Dr. Zaid Al-Huda
+ 
 *This repository is actively maintained and updated regularly with new tools, techniques, and educational resources*
 
 
