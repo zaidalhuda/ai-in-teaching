@@ -6,7 +6,7 @@
 
 A practical, step-by-step guide to help teachers across all subjects use AI responsibly and effectively. Everything is organized with concrete examples, copy-paste prompts, and classroom-ready activities.
 
-*By Dr. Zaid Al-Huda* 
+**By Dr. Zaid Al-Huda** 
 ---
 
 ## Quick Start Guide
