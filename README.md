@@ -4,11 +4,11 @@
  
 *This repository is actively maintained and updated regularly with new tools, techniques, and educational resources*
 
-A practical, step-by-step guide to help teachers across all subjects use AI responsibly and effectively. Everything is organized with concrete examples, copy-paste prompts, and classroom-ready activities.
 
-> *"Master computer vision through progressive hands-on examples and real-world applications"* - Build your expertise step-by-step with practical notebooks and clear explanations.
 
-**By Dr. Zaid Al-Huda** 
+> *A practical, step-by-step guide to help teachers across all subjects use AI responsibly and effectively. Everything is organized with concrete examples, copy-paste prompts, and classroom-ready activities.
+
+*By Dr. Zaid Al-Huda
 ---
 
 ## Quick Start Guide
