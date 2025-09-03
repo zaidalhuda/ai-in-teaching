@@ -258,11 +258,11 @@ Design an interactive activity for [topic] that:
 
 ### AI Assignment Levels
 
-**Level 1 - No AI**: Traditional assessments, in-class work
-**Level 2 - AI Planning**: Brainstorming allowed, final work is original
-**Level 3 - AI Collaboration**: AI assistance with full disclosure
-**Level 4 - AI Partnership**: Co-creation with focus on process
-**Level 5 - AI Mastery**: Complex projects requiring AI tool orchestration
+- **Level 1 - No AI**: Traditional assessments, in-class work
+- **Level 2 - AI Planning**: Brainstorming allowed, final work is original
+- **Level 3 - AI Collaboration**: AI assistance with full disclosure
+- **Level 4 - AI Partnership**: Co-creation with focus on process
+- **Level 5 - AI Mastery**: Complex projects requiring AI tool orchestration
 
 ### Integrity Strategies
 
