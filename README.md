@@ -168,39 +168,20 @@ Never: Process personally identifiable student information
 Format: [Specify preferred output format - lists, paragraphs, etc.]
 ```
 
-### Setting Up Claude Projects for Educators
+### Setting Up AI Teaching Projects
 
-**Creating a Claude Teaching Project:**
-1. Go to [claude.ai](https://claude.ai) and click "Projects"
-2. Create new project with descriptive name (e.g., "Data Structure 1 Teaching Assistant")
-3. Add custom instructions using the template above
-4. Upload key documents: syllabus, standards, sample materials
-5. Test with sample prompts to ensure proper setup
+Both Claude and ChatGPT offer project functionality that allows you to create dedicated teaching assistants with consistent context and uploaded materials.
 
-**Essential Documents to Upload to Claude:**
-- Course standards and curriculum guides
-- Sample lesson plan templates
-- Assessment rubrics
-- Student work examples (anonymized)
-- Vocabulary lists and key concepts
-- Textbook chapters or curriculum materials
-
-**Claude Project Benefits:**
-- Maintains context across all conversations
-- Remembers uploaded documents for future reference
-- Consistent responses based on your teaching style
-- Easy to share with colleagues
-
-### Setting Up ChatGPT Projects for Educators
-
-**Creating a ChatGPT Teaching Project:**
-1. Go to [chatgpt.com](https://chatgpt.com) and click "Projects"
-2. Create new project with descriptive name (e.g., "Data Science Programming Teaching Assistant")
+**Creating Your Teaching Project:**
+1. Go to [claude.ai](https://claude.ai) or [chatgpt.com](https://chatgpt.com) and click "Projects"
+2. Create new project with descriptive name:
+   - Claude example: "Data Structure 1 Teaching Assistant"
+   - ChatGPT example: "Data Science Programming Teaching Assistant"
 3. Add project instructions using the template above
 4. Upload key documents: syllabus, standards, sample materials
 5. Test with sample prompts to ensure proper setup
 
-**Essential Documents to Upload to ChatGPT:**
+**Essential Documents to Upload:**
 - Course standards and curriculum guides
 - Sample lesson plan templates
 - Assessment rubrics
@@ -208,13 +189,14 @@ Format: [Specify preferred output format - lists, paragraphs, etc.]
 - Vocabulary lists and key concepts
 - Textbook chapters or curriculum materials
 
-**ChatGPT Project Benefits:**
-- Maintains context across all conversations within the project
-- Remembers uploaded documents for future reference
-- Consistent responses based on your teaching context
-- Organized workspace for different subjects or classes
+**Project Benefits:**
+- **Context maintenance**: Remembers all previous conversations within the project
+- **Document memory**: Recalls uploaded materials for future reference
+- **Consistent responses**: Maintains your teaching style and preferences
+- **Organization**: Separate workspaces for different courses or subjects
+- **Collaboration**: Easy to share project setups with colleagues
 
-**Sample ChatGPT Project Instructions:**
+**Sample Project Instructions for Both Platforms:**
 ```
 You are a teaching assistant for [course level/subject] in China.
 Context: Teaching in English to ESL college students with varying proficiency levels.
