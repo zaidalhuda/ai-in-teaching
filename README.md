@@ -137,7 +137,7 @@ For educators beginning their AI journey, we recommend focusing on two primary t
 
 ### Why Claude for Education?
 
-**Claude - Deep Learning Mode:**
+**Claude - Comprehensive Learning Assistant:**
 - **Long-form content creation**: Generate detailed lesson plans and comprehensive materials
 - **Document analysis**: Upload and analyze curriculum documents, textbooks, and standards
 - **Iterative refinement**: Multi-turn conversations to perfect and refine materials
@@ -149,7 +149,7 @@ For educators beginning their AI journey, we recommend focusing on two primary t
 
 ### Why ChatGPT for Education?
 
-**ChatGPT - Quick Creation Mode:**
+**ChatGPT - Interactive Learning Assistant:**
 - **Rapid content generation**: Fast creation of activities, questions, and materials
 - **Versatile brainstorming**: Excellent for generating ideas and creative approaches
 - **Code generation**: Strong for creating educational technology and programming examples
