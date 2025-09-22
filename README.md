@@ -38,7 +38,7 @@ A practical, step-by-step guide to help teachers across all subjects use AI resp
 - [Module 7 - Teaching AI Literacy](#module-7---teaching-ai-literacy)
 - [Module 8 - Ethical Considerations & Safety](#module-8---ethical-considerations--safety)
 - [Module 9 - Ready-to-Use Prompts Library](#module-9---ready-to-use-prompts-library)
-- [Module 10 - Custom GPT Creation](#module-10---custom-gpt-creation)
+- [Module 10 - Creating Presentations with Gamma and Gamma Agent](#module-10---creating-presentations-with-gamma-and-gamma-agent)
 - [References and Further Reading](#references-and-further-reading)
 
 ---
@@ -160,7 +160,7 @@ For educators beginning their AI journey, we recommend focusing on two primary t
 
 ### Basic Configuration Template
 ```
-You are a teaching assistant for [grade level/subject].
+You are a teaching assistant for [course level/subject].
 Context: [Brief description of your teaching situation]
 Cultural context: Teaching in China with understanding of local educational environment
 Always provide: Clear headings, sources for facts, implementation tips
@@ -172,7 +172,7 @@ Format: [Specify preferred output format - lists, paragraphs, etc.]
 
 **Creating a Claude Teaching Project:**
 1. Go to [claude.ai](https://claude.ai) and click "Projects"
-2. Create new project with descriptive name (e.g., "Grade 8 Science Teaching Assistant")
+2. Create new project with descriptive name (e.g., "Data Structure 1 Teaching Assistant")
 3. Add custom instructions using the template above
 4. Upload key documents: syllabus, standards, sample materials
 5. Test with sample prompts to ensure proper setup
@@ -195,7 +195,7 @@ Format: [Specify preferred output format - lists, paragraphs, etc.]
 
 **Creating a ChatGPT Teaching Project:**
 1. Go to [chatgpt.com](https://chatgpt.com) and click "Projects"
-2. Create new project with descriptive name (e.g., "Grade 8 Science Teaching Assistant")
+2. Create new project with descriptive name (e.g., "Data Science Programming Teaching Assistant")
 3. Add project instructions using the template above
 4. Upload key documents: syllabus, standards, sample materials
 5. Test with sample prompts to ensure proper setup
@@ -216,8 +216,8 @@ Format: [Specify preferred output format - lists, paragraphs, etc.]
 
 **Sample ChatGPT Project Instructions:**
 ```
-You are a teaching assistant for [grade level] [subject] in China.
-Context: Teaching in English to ESL students with varying proficiency levels.
+You are a teaching assistant for [course level/subject] in China.
+Context: Teaching in English to ESL college students with varying proficiency levels.
 Cultural background: Students come from Chinese cultural backgrounds.
 
 Always provide:
@@ -256,7 +256,7 @@ Never process personally identifiable student information.
 ```
 TASK: [What you want created - be specific]
 CONTEXT: [Background information needed]
-AUDIENCE: [Grade level, ability level]
+AUDIENCE: [Course level, ability level]
 FORMAT: [How you want it structured]
 CONSTRAINTS: [Time limits, length, etc.]
 CULTURAL CONTEXT: [Chinese educational environment considerations]
@@ -329,7 +329,7 @@ Target level: [grade/proficiency level]
 
 **1. Generate Structure (10 minutes)**
 ```
-Create a [X]-minute lesson plan for [topic] at [grade level].
+Create a [X]-minute lesson plan for [topic] at [course level].
 Include: Hook, instruction, practice, assessment, closure.
 Learning objective: Students will [specific goal].
 Cultural context: Consider Chinese students learning in English
@@ -359,7 +359,7 @@ Consider ESL learners and provide additional scaffolding where needed.
 
 **Lesson Structure Generator**
 ```
-Create a [duration] lesson on [topic] for [grade level]:
+Create a [duration] lesson on [topic] for [course level]:
 - Opening activity to engage students
 - Main instruction with key concepts
 - Guided practice with examples
@@ -442,7 +442,7 @@ Generate a [number]-question assessment on [topic]:
 - Short answer questions
 - One application problem
 Include answer key with explanations.
-Target: [grade level], Duration: [time]
+Target: [course level], Duration: [time]
 Use clear, accessible English appropriate for ESL learners.
 ```
 
@@ -486,7 +486,7 @@ Students compare responses from different AI systems (Western vs. Chinese) on th
 
 **Explain AI Limitations**
 ```
-In student-friendly language for [grade level], explain why AI sometimes:
+In student-friendly language for [course level], explain why AI sometimes:
 - Provides incorrect information
 - Shows bias in responses
 - Can't replace human judgment
@@ -497,7 +497,7 @@ Use clear English appropriate for ESL learners.
 
 **Generate Discussion Questions**
 ```
-Create 5 age-appropriate questions about AI ethics for [grade level]:
+Create 5 age-appropriate questions about AI ethics for [course level]:
 Focus on privacy, fairness, responsible use, and cultural sensitivity.
 Build from basic understanding to deeper thinking.
 Include perspectives from different cultural contexts.
@@ -536,16 +536,6 @@ Always review AI-generated content for:
 - Western vs. Chinese cultural biases
 - Regional or cultural blind spots
 
-### Cross-Platform Considerations
-
-When using multiple AI tools:
-- Compare outputs for consistency
-- Be aware of different cultural training data
-- Consider regulatory differences (Chinese vs. international platforms)
-- Respect data sovereignty requirements
-- Understand different privacy policies
-- Evaluate content for cultural relevance to Chinese students
-
 ### Safety Prompts
 
 **Bias Check Template**
@@ -583,7 +573,7 @@ Check for:
 
 **Comprehensive Lesson Planner**
 ```
-Create a complete lesson plan for [topic] at [grade level]:
+Create a complete lesson plan for [topic] at [course level]:
 - Duration: [X] minutes
 - Learning objective with measurable outcome
 - Materials needed
@@ -736,92 +726,63 @@ Design a project that explores [topic] from multiple cultural perspectives:
 
 ---
 
-## Module 10 - Custom GPT Creation
+## Module 10 - Creating Presentations with Gamma and Gamma Agent
 
-### Basic Custom GPT Template
+### What is Gamma?
+
+Gamma is an AI-powered presentation tool that creates professional slides from simple prompts. With **Gamma 3.0 and Gamma Agent**, educators now have access to an AI presentation expert that can enhance and optimize presentations automatically.
+
+### Why Gamma for Education?
+
+**Key Benefits:**
+- **Instant slide generation** from text prompts
+- **Professional templates** automatically applied
+- **Interactive elements** - polls, quizzes, embedded content
+- **AI Agent assistance** for content enhancement
+- **ESL-friendly** design and language support
+
+### Getting Started
+
+1. Go to [gamma.app](https://gamma.app/) and create free account
+2. Click "Create new" → "Presentation"
+3. Choose: Prompt, Outline, or Document upload
+4. Use Gamma Agent for advanced enhancements
+
+### Essential Educational Prompts
+
+**Basic Lesson Presentation:**
 ```
-You are a teaching assistant for [subject/grade level] in a Chinese educational context.
-
-CONTEXT: [Your teaching environment and student needs]
-CULTURAL AWARENESS: Understand and incorporate Chinese educational values and cultural perspectives
-
-CAPABILITIES:
-- Create lesson plans aligned to standards
-- Generate assessments with rubrics
-- Provide differentiated materials
-- Suggest engagement strategies
-- Support ESL learners
-- Provide cultural context and connections
-
-FORMATTING:
-- Use clear headings and bullet points
-- Provide step-by-step instructions
-- Include time estimates and materials
-- Offer multiple difficulty levels
-- Use accessible English for ESL students
-
-CULTURAL CONSIDERATIONS:
-- Respect Chinese cultural values and traditions
-- Include relevant Chinese examples and contexts
-- Consider collectivist learning approaches
-- Support English language learning needs
-- Acknowledge different educational philosophies
-
-QUALITY ASSURANCE:
-- Cite sources for factual information
-- Flag content needing verification
-- Recommend teacher review of all content
-- Check for cultural sensitivity
-
-LIMITATIONS:
-- Never process student personal information
-- Cannot replace professional judgment
-- Always recommend teacher review
+Create a presentation on [topic] for [course level] ESL students:
+- Include learning objectives and 3-5 main concept slides
+- Add interactive question slides and vocabulary support
+- Use clear, simple language and engaging visuals
+- Include cultural connections for Chinese students
 ```
 
-### ESL Education GPT Template
+**Interactive Review Session:**
 ```
-You are an ESL education specialist for Chinese students learning English.
-
-MISSION: Support effective English instruction and cross-cultural learning
-
-CORE FUNCTIONS:
-- Create scaffolded lesson materials
-- Design language support strategies
-- Develop cultural bridge activities
-- Generate assessments with ESL considerations
-- Support English language development
-
-LANGUAGE APPROACH:
-- Maintain academic rigor in English
-- Support progressive language development
-- Respect cultural identity while building English proficiency
-- Build English skills authentically
-
-CULTURAL COMPETENCE:
-- Value diverse cultural knowledge
-- Create inclusive classroom environments
-- Address cultural identity development
-- Support family and community connections
+Create an interactive review presentation for [topic]:
+- Include quiz questions with multiple choice
+- Add visual summaries and group activities
+- Include poll questions for engagement
+- End with study tips and exit ticket
 ```
 
-### Useful Conversation Starters
-- "Create a unit plan for [topic] with daily lessons incorporating Chinese cultural context"
-- "Generate differentiated materials for [concept] for different English proficiency levels"
-- "Design an engaging introduction to [subject matter] that connects to Chinese culture"
-- "Create assessment rubric for [assignment type] with ESL considerations"
-- "Suggest real-world applications for [topic] from Chinese and global perspectives"
-- "Help me adapt Western curriculum for Chinese learners"
-- "Create cross-cultural comparison activities for [topic]"
+### Gamma Agent - AI Enhancement
 
-### Documents to Upload
-- Curriculum standards and pacing guides (Chinese and international)
-- Lesson plan templates
-- Assessment rubrics (with ESL considerations)
-- Classroom management strategies
-- Subject-specific resources
-- Cultural reference materials
-- ESL development frameworks
+**What Gamma Agent Does:**
+- **Smart Content Enhancement**: Makes presentations more visual automatically
+- **Note Integration**: Converts handwritten notes/screenshots into polished slides
+- **Cultural Adaptation**: Adjusts content for Chinese ESL students
+- **Interactive Suggestions**: Recommends polls, quizzes, and activities
+- **Brand Consistency**: Maintains school/personal style throughout
+
+**Agent Prompt Examples:**
+```
+"Review this presentation and make it more visual for data science students. Add diagrams where appropriate and include interactive elements for engagement."
+
+"Adapt this lesson for Chinese ESL college students. Simplify academic language, add cultural context, and include vocabulary support slides."
+```
 
 ---
 
