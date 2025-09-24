@@ -12,7 +12,7 @@ A practical, step-by-step guide to help teachers across all subjects use AI resp
 ## Quick Start Guide
 
 1) **Choose Your Primary AI Assistant**  
-   **International Options:** [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Perplexity](https://www.perplexity.ai/)
+   **International Options:** [ChatGPT](https://chat.openai.com/) · [Claude](https://claude.ai/) · [Gemini](https://gemini.google.com/) · [Grok](https://x.ai/)
    
    **Chinese AI Options:** [DeepSeek](https://www.deepseek.com/) · [Qwen](https://tongyi.aliyun.com/) · [Kimi](https://kimi.moonshot.cn/)
 
@@ -87,7 +87,7 @@ A practical, step-by-step guide to help teachers across all subjects use AI resp
 | **ChatGPT** | General teaching tasks, lesson planning | [chat.openai.com](https://chat.openai.com/) | Versatile, good for brainstorming, code generation |
 | **Claude** | Long-form content, document analysis | [claude.ai](https://claude.ai/) | Excellent for detailed lesson plans, ethical reasoning |
 | **Gemini** | Research integration, fact-checking | [gemini.google.com](https://gemini.google.com/) | Google integration, current information access |
-| **Perplexity** | Research and citation | [perplexity.ai](https://www.perplexity.ai/) | Provides sources, good for fact-checking |
+| **Grok** | Real-time information and current events | [x.ai](https://x.ai/) | Access to real-time data, conversational style, current news integration |
 | **DeepSeek** | Programming education, STEM subjects | [deepseek.com](https://www.deepseek.com/) | Strong in math and coding, understands Chinese context |
 | **Qwen** | Chinese context education | [tongyi.aliyun.com](https://tongyi.aliyun.com/) | Alibaba integration, excellent for culturally relevant English content |
 | **Kimi** | Long document analysis, research | [kimi.moonshot.cn](https://kimi.moonshot.cn/) | Handles very long texts, good for curriculum analysis |
@@ -131,9 +131,9 @@ A practical, step-by-step guide to help teachers across all subjects use AI resp
 
 ## Module 3 - Choose & Configure Your AI Assistant
 
-### Study and Learn Mode: Claude vs ChatGPT
+### Study and Learn Mode: Claude vs ChatGPT vs Grok
 
-For educators beginning their AI journey, we recommend focusing on two primary tools that offer the best learning experience and educational applications:
+For educators beginning their AI journey, we recommend focusing on three primary tools that offer the best learning experience and educational applications:
 
 ### Why Claude for Education?
 
@@ -158,25 +158,38 @@ For educators beginning their AI journey, we recommend focusing on two primary t
 
 **Best for:** Quick lesson modifications, brainstorming activities, generating practice problems, and immediate classroom needs.
 
+### Why Grok for Education?
+
+**Grok - Real-Time Information Assistant:**
+- **Current events integration**: Access to real-time information and trending topics
+- **Conversational style**: More casual, engaging communication that students may find relatable
+- **Social media awareness**: Understanding of current online culture and references
+- **Real-time data**: Up-to-date statistics, news, and information for lesson relevance
+- **X platform integration**: Direct access to current discussions and trending topics
+
+**Best for:** Current events lessons, trending topic discussions, real-time data for projects, and connecting lessons to contemporary issues.
+
 ### Basic Configuration Template
 ```
 You are a teaching assistant for [course level/subject].
 Context: [Brief description of your teaching situation]
-Cultural context: Teaching in China with understanding of local educational environment
+Student context: [International/diverse student body OR specific cultural context if relevant]
 Always provide: Clear headings, sources for facts, implementation tips
 Never: Process personally identifiable student information
 Format: [Specify preferred output format - lists, paragraphs, etc.]
+ESL Support: [Include simplified language options when requested]
 ```
 
 ### Setting Up AI Teaching Projects
 
-Both Claude and ChatGPT offer project functionality that allows you to create dedicated teaching assistants with consistent context and uploaded materials.
+Claude, ChatGPT, and Grok all offer project functionality that allows you to create dedicated teaching assistants with consistent context and uploaded materials.
 
 **Creating Your Teaching Project:**
-1. Go to [claude.ai](https://claude.ai) or [chatgpt.com](https://chatgpt.com) and click "Projects"
+1. Go to [claude.ai](https://claude.ai), [chatgpt.com](https://chatgpt.com), or [x.ai](https://x.ai) and create a project
 2. Create new project with descriptive name:
    - Claude example: "Data Structure 1 Teaching Assistant"
-   - ChatGPT example: "Data Science Programming Teaching Assistant"
+   - ChatGPT example: "Data Science Programming Teaching Assistant"  
+   - Grok example: "Current Events & Technology Teaching Assistant"
 3. Add project instructions using the template above
 4. Upload key documents: syllabus, standards, sample materials
 5. Test with sample prompts to ensure proper setup
@@ -196,24 +209,24 @@ Both Claude and ChatGPT offer project functionality that allows you to create de
 - **Organization**: Separate workspaces for different courses or subjects
 - **Collaboration**: Easy to share project setups with colleagues
 
-**Sample Project Instructions for Both Platforms:**
+**Sample Project Instructions for All Platforms:**
 ```
-You are a teaching assistant for [course level/subject] in China.
-Context: Teaching in English to ESL college students with varying proficiency levels.
-Cultural background: Students come from Chinese cultural backgrounds.
+You are a teaching assistant for [course level/subject].
+Context: Teaching to diverse international students with varying English proficiency levels.
+Student background: Multicultural classroom with students from various educational backgrounds.
 
 Always provide:
 - Clear, structured responses with headings and bullet points
 - Timing estimates and materials lists for activities
-- Vocabulary support for ESL learners when needed
-- Cultural context and connections to Chinese student experiences
+- Option to simplify academic language for ESL learners when requested
+- Inclusive examples that work across cultures
 - Implementation tips and troubleshooting suggestions
 
-Keep language clear and accessible for different English proficiency levels.
+Keep language accessible for different English proficiency levels when requested.
 Never process personally identifiable student information.
 ```
 
-### Choosing Between Claude and ChatGPT
+### Choosing Between Claude, ChatGPT, and Grok
 
 **Use Claude when you need:**
 - Detailed, comprehensive lesson plans
@@ -228,6 +241,13 @@ Never process personally identifiable student information.
 - Immediate classroom solutions
 - Code or technical examples
 - Rapid content iterations
+
+**Use Grok when you need:**
+- Current events integration
+- Real-time information and data
+- Contemporary examples and references
+- Trending topics for engagement
+- Casual, conversational interactions
 
 ---
 
@@ -251,6 +271,7 @@ CULTURAL CONTEXT: [Chinese educational environment considerations]
 4. **Break complex tasks into steps** - Chain smaller tasks together
 5. **Specify audience level** - Age-appropriate language and complexity
 6. **Consider cultural context** - Include Chinese cultural references where relevant
+7. **Use Grok for current examples** - Leverage real-time data for relevant content
 
 ### Prompting Techniques
 
@@ -271,15 +292,22 @@ Now create 3 similar questions for [topic]."
 "Explain how to solve this problem step by step, showing reasoning at each stage."
 ```
 
+**Real-Time Enhancement** (for Grok):
+```
+"Include current examples and recent developments when explaining [topic]. 
+Connect the lesson to what's happening now in [field/industry]."
+```
+
 ### Cultural Context Integration
 
-**Chinese Cultural Connection**
+**Inclusive Cultural Connection**
 ```
 Create learning materials for [topic] that:
-- Include relevant Chinese cultural examples
-- Connect to students' background knowledge
-- Use familiar contexts while teaching in English
+- Include diverse cultural examples and perspectives
+- Connect to students' varied background knowledge
+- Use inclusive contexts while teaching in English
 - Bridge local and global perspectives
+- Option to simplify academic language for ESL learners
 Target level: [grade/proficiency level]
 ```
 
@@ -300,6 +328,10 @@ Target level: [grade/proficiency level]
 - [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) - Latest model optimization
 - [ChatGPT Prompt Engineering Course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - Free course by DeepLearning.AI & OpenAI
 
+**xAI (Grok) Resources:**
+- [Grok Documentation](https://docs.x.ai/) - Official guidance for using Grok effectively
+- Focus on leveraging real-time capabilities and conversational style
+
 **Additional Learning Resources:**
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive community-driven resource with latest techniques and research
 
@@ -315,6 +347,7 @@ Create a [X]-minute lesson plan for [topic] at [course level].
 Include: Hook, instruction, practice, assessment, closure.
 Learning objective: Students will [specific goal].
 Cultural context: Consider Chinese students learning in English
+For current topics, include recent examples or developments.
 ```
 
 **2. Create Materials (20 minutes)**
@@ -325,7 +358,7 @@ For the lesson above, create:
 - Assessment questions
 - Exit ticket
 - Presentation slides (using Gamma for visual support)
-Include cultural connections where appropriate
+Include cultural connections and current examples where appropriate
 ```
 
 **3. Add Differentiation (15 minutes)**
@@ -348,7 +381,17 @@ Create a [duration] lesson on [topic] for [course level]:
 - Independent work or application
 - Closure with assessment
 Include materials list and timing.
-Consider Chinese cultural context where relevant.
+Options: Include diverse cultural contexts and/or simplify academic language for ESL learners if requested.
+```
+
+**Current Events Integration** (ideal for Grok):
+```
+Design a lesson connecting [academic topic] to current events:
+- Recent news or developments related to the topic
+- Real-world applications happening now
+- Discussion questions about current implications
+- Activities using up-to-date examples
+- Cultural perspectives from different regions
 ```
 
 **Activity Creator**
@@ -360,6 +403,7 @@ Design an interactive activity for [topic] that:
 - Includes clear instructions
 - Has built-in assessment
 - Accommodates different English proficiency levels
+- Incorporates current examples when possible
 ```
 
 **Cultural Context Enhancement**
@@ -371,6 +415,7 @@ Add:
 - Local context connections
 - Cross-cultural comparisons
 - Familiar scenarios for Chinese students
+- Current developments in Chinese context
 ```
 
 **Educational Presentation Designer**
@@ -380,11 +425,11 @@ Create a presentation structure for teaching [topic] to [grade level]:
 - Learning objectives slide
 - 3-5 content slides with key concepts
 - Interactive slide with student activity
-- Real-world application examples
+- Real-world application examples (include current examples)
 - Summary and review slide
 - Next steps/homework slide
 Include speaker notes and suggested timing for each slide.
-Consider Chinese cultural context where appropriate.
+Options: Include diverse cultural contexts and/or simplify academic language for ESL learners if requested.
 ```
 
 ---
@@ -405,6 +450,8 @@ Consider Chinese cultural context where appropriate.
 
 **Micro-Assessments**: Quick verbal checks during class to verify understanding.
 
+**Current Events Verification**: Use Grok to check if student examples and current references are accurate and up-to-date.
+
 ### General Assessment Prompts
 
 **Rubric Generator**
@@ -415,6 +462,16 @@ Levels: Excellent, Good, Developing, Needs Work
 Include specific descriptors and point values.
 Format as a clear table.
 Consider ESL students with clear language expectations.
+```
+
+**Current Events Quiz Creator** (ideal for Grok):
+```
+Generate a [number]-question assessment connecting [topic] to current events:
+- Multiple choice with recent examples
+- Short answer about current applications
+- Analysis questions using up-to-date information
+Include answer key with current source references.
+Target: [course level], Duration: [time]
 ```
 
 **Quiz Creator**
@@ -435,6 +492,7 @@ Create assessments that support ESL learners on [topic]:
 - Visual supports where appropriate
 - Multiple ways to demonstrate understanding
 - Vocabulary support for key terms
+- Current examples that are culturally accessible
 Ensure equivalent rigor while maintaining accessibility.
 ```
 
@@ -449,6 +507,7 @@ Ensure equivalent rigor while maintaining accessibility.
 - Writing effective prompts
 - Evaluating AI responses critically
 - Understanding cultural and regional biases in different AI systems
+- Recognizing the difference between real-time and static AI knowledge
 
 ### Basic Activities
 
@@ -462,7 +521,10 @@ Students analyze AI responses for missing viewpoints, stereotypes, or unfair ass
 Students verify AI claims using authoritative sources and rate their confidence in each piece of information.
 
 **Cross-Cultural AI Analysis**
-Students compare responses from different AI systems (Western vs. Chinese) on the same topic to understand cultural perspectives in English-language outputs.
+Students compare responses from different AI systems (Western vs. Chinese, static vs. real-time) on the same topic to understand cultural and temporal perspectives in English-language outputs.
+
+**Real-Time vs. Static Knowledge**
+Students compare responses from Grok (real-time) and other AIs (static knowledge) to understand the importance of currency in information.
 
 ### Teaching AI Literacy Prompts
 
@@ -473,6 +535,7 @@ In student-friendly language for [course level], explain why AI sometimes:
 - Shows bias in responses
 - Can't replace human judgment
 - May reflect cultural biases from training data
+- Has different access to current information
 Include 2 relevant examples from both Western and Chinese contexts.
 Use clear English appropriate for ESL learners.
 ```
@@ -480,9 +543,9 @@ Use clear English appropriate for ESL learners.
 **Generate Discussion Questions**
 ```
 Create 5 age-appropriate questions about AI ethics for [course level]:
-Focus on privacy, fairness, responsible use, and cultural sensitivity.
+Focus on privacy, fairness, responsible use, cultural sensitivity, and information currency.
 Build from basic understanding to deeper thinking.
-Include perspectives from different cultural contexts.
+Include perspectives from different cultural contexts and time periods.
 Use accessible English for ESL students.
 ```
 
@@ -492,8 +555,18 @@ Design an activity where students explore how different AI systems respond to qu
 - Cultural traditions
 - Historical events
 - Social norms
+- Current events (comparing real-time vs. static responses)
 Help students understand why responses might vary and develop critical thinking skills.
 Conduct activity entirely in English with cultural context support.
+```
+
+**Information Currency Activity** (using Grok):
+```
+Create a lesson comparing real-time AI responses with static AI knowledge:
+- Have students ask the same question to Grok and another AI
+- Compare currency and accuracy of information
+- Discuss when real-time information is crucial vs. when static knowledge is sufficient
+- Teach students to recognize and evaluate information freshness
 ```
 
 ---
@@ -517,6 +590,7 @@ Always review AI-generated content for:
 - Need for additional viewpoints
 - Western vs. Chinese cultural biases
 - Regional or cultural blind spots
+- Temporal bias (outdated vs. current information)
 
 ### Safety Prompts
 
@@ -524,16 +598,17 @@ Always review AI-generated content for:
 ```
 Review this content for potential bias:
 [Insert content]
-Identify: Missing perspectives, assumptions, stereotypes, cultural biases.
-Consider both Western and Chinese perspectives.
-Suggest ways to make it more inclusive.
+Identify: Missing perspectives, assumptions, stereotypes, cultural biases, temporal limitations.
+Consider both Western and Chinese perspectives, and current vs. historical viewpoints.
+Suggest ways to make it more inclusive and current.
 ```
 
 **Fact Verification Request**
 ```
-Check this information for accuracy from multiple cultural perspectives:
+Check this information for accuracy from multiple cultural and temporal perspectives:
 [Insert content]
-Identify claims that need verification and suggest reliable sources from different regions.
+Identify claims that need verification and suggest reliable sources from different regions and time periods.
+Note which information might be outdated vs. current.
 ```
 
 **Cultural Sensitivity Review**
@@ -545,6 +620,18 @@ Check for:
 - Avoiding stereotypes
 - Appropriate cultural examples
 - Balanced global perspectives
+- Current vs. historical accuracy
+```
+
+**Information Currency Check** (ideal for Grok):
+```
+Verify the currency of this information:
+[Insert content]
+Check for:
+- Outdated statistics or examples
+- Recent developments that might change the context
+- Current best practices vs. older methods
+- Up-to-date cultural or social references
 ```
 
 ---
@@ -564,30 +651,43 @@ Create a complete lesson plan for [topic] at [course level]:
 - Differentiation options
 - ESL support strategies
 - Cultural connections where relevant
+- Current examples and applications
 ```
 
 **Hook Activity Generator**
 ```
 Create an engaging opening activity for [topic]:
-- Connects to student experience (consider Chinese cultural context)
+- Connects to diverse student experiences
 - Takes 5-10 minutes
 - Requires minimal materials
 - Gets students thinking about key concepts
 - Transitions naturally to main lesson
-- Accessible to different English proficiency levels
+- Option to simplify language for different English proficiency levels
+- Include diverse examples when relevant
 ```
 
-**Cultural Context Lesson Creator**
+**Current Events Connection** (ideal for Grok):
 ```
-Design a lesson that incorporates Chinese cultural perspectives:
+Create a lesson connecting [academic topic] to current events:
+- Recent developments in the field
+- Real-world applications happening now
+- Current examples from different cultures
+- Discussion questions about present-day implications
+- Activities using up-to-date case studies
+```
+
+**Inclusive Cultural Context Lesson Creator**
+```
+Design a lesson that incorporates multiple cultural perspectives:
 Topic: [specify]
 Grade: [specify]
 Include:
-- Relevant cultural examples and connections
-- Cross-cultural comparisons
-- Local context integration
-- Scaffolded English support for cultural concepts
+- Diverse cultural examples and connections
+- Cross-cultural comparisons and discussions
+- Inclusive context integration
+- Option to simplify academic language for ESL learners
 - Global perspective balancing
+- Current developments from various cultural contexts
 ```
 
 ### Assessment Prompts
@@ -602,6 +702,7 @@ Create a complete assessment for [topic]:
 - Estimated time: [X] minutes
 - Point values for each section
 - Clear instructions for ESL learners
+- Current examples where appropriate
 ```
 
 **Discussion Question Generator**
@@ -613,6 +714,17 @@ Create engaging discussion questions for [topic]:
 - Encourage multiple perspectives (including Chinese cultural viewpoints)
 - Include follow-up questions to deepen thinking
 - Provide vocabulary support for different English proficiency levels
+- Include current events connections where relevant
+```
+
+**Current Events Assessment** (ideal for Grok):
+```
+Create assessment questions that connect [topic] to current events:
+- Recent developments and their implications
+- Analysis of current examples
+- Comparison of historical vs. current approaches
+- Prediction questions based on current trends
+- Critical thinking about current information sources
 ```
 
 **Cross-Cultural Assessment**
@@ -625,6 +737,7 @@ Include questions that:
 - Recognize diverse problem-solving approaches
 - Provide culturally relevant contexts
 - Use accessible English for ESL learners
+- Include both traditional and current perspectives
 ```
 
 ### Differentiation Prompts
@@ -641,7 +754,7 @@ Create:
 - ESL Support: Additional vocabulary and language scaffolds
 
 Maintain same learning objectives across levels.
-Consider Chinese cultural examples where appropriate.
+Consider Chinese cultural examples and current developments where appropriate.
 ```
 
 **Universal Design Adapter**
@@ -656,6 +769,7 @@ Include adaptations for:
 - Students needing extra support (scaffolds, guides)
 - ESL learners (vocabulary support, cultural bridges)
 - Different cultural backgrounds
+- Integration of current examples and trends
 ```
 
 ### Engagement Prompts
@@ -670,6 +784,7 @@ Design a [duration] interactive activity for [topic]:
 - Provides troubleshooting tips
 - Considers different cultural communication styles
 - Supports various English proficiency levels
+- Incorporates current examples or trending topics
 ```
 
 **Presentation Creator (for Gamma)**
@@ -679,6 +794,7 @@ Create a presentation outline for [topic] at [grade level]:
 - Key points for each slide (3-5 bullets max)
 - Visual suggestions for each slide
 - Interactive elements (polls, questions, activities)
+- Current examples and recent developments
 - Conclusion with call-to-action
 - Speaker notes with timing
 - Clear English appropriate for ESL learners
@@ -691,6 +807,7 @@ Create authentic connections between [topic] and real life:
 - Career connections showing practical use
 - Local community applications
 - Global perspectives and applications
+- Recent developments and trends
 - Discussion questions linking theory to practice
 - Cultural relevance for Chinese students
 ```
@@ -703,7 +820,20 @@ Design a project that explores [topic] from multiple cultural perspectives:
 - Encourage students to share their cultural knowledge
 - Build intercultural competence
 - Support collaborative learning across cultures
+- Include current global developments and trends
 - Conduct entirely in English with cultural context support
+```
+
+**Current Trends Integration** (ideal for Grok):
+```
+Design activities that connect [topic] to current trends:
+- What's happening now in this field
+- Recent innovations or developments
+- Current debates or discussions
+- Trending applications or examples
+- Real-time data or statistics
+- Current cultural or social connections
+- Future implications based on current trends
 ```
 
 ---
@@ -722,6 +852,7 @@ Gamma is an AI-powered presentation tool that creates professional slides from s
 - **Interactive elements** - polls, quizzes, embedded content
 - **AI Agent assistance** for content enhancement
 - **ESL-friendly** design and language support
+- **Real-time integration** when combined with Grok for current examples
 
 ### Getting Started
 
@@ -729,6 +860,7 @@ Gamma is an AI-powered presentation tool that creates professional slides from s
 2. Click "Create new" → "Presentation"
 3. Choose: Prompt, Outline, or Document upload
 4. Use Gamma Agent for advanced enhancements
+5. Combine with Grok for current examples and trends
 
 ### Essential Educational Prompts
 
@@ -739,6 +871,7 @@ Create a presentation on [topic] for [course level] ESL students:
 - Add interactive question slides and vocabulary support
 - Use clear, simple language and engaging visuals
 - Include cultural connections for Chinese students
+- Integrate current examples where relevant
 ```
 
 **Interactive Review Session:**
@@ -747,7 +880,18 @@ Create an interactive review presentation for [topic]:
 - Include quiz questions with multiple choice
 - Add visual summaries and group activities
 - Include poll questions for engagement
+- Incorporate recent developments or examples
 - End with study tips and exit ticket
+```
+
+**Current Events Integration:**
+```
+Create a presentation connecting [academic topic] to current events:
+- Opening slide with recent news or developments
+- Connection slides linking current events to academic concepts
+- Analysis slides for critical thinking
+- Discussion prompts about current implications
+- Real-world application examples from recent news
 ```
 
 ### Gamma Agent - AI Enhancement
@@ -758,13 +902,22 @@ Create an interactive review presentation for [topic]:
 - **Cultural Adaptation**: Adjusts content for Chinese ESL students
 - **Interactive Suggestions**: Recommends polls, quizzes, and activities
 - **Brand Consistency**: Maintains school/personal style throughout
+- **Current Content Integration**: Suggests up-to-date examples and references
 
 **Agent Prompt Examples:**
 ```
-"Review this presentation and make it more visual for data science students. Add diagrams where appropriate and include interactive elements for engagement."
+"Review this presentation and make it more visual for data science students. Add diagrams where appropriate, include interactive elements for engagement, and integrate current industry examples."
 
-"Adapt this lesson for Chinese ESL college students. Simplify academic language, add cultural context, and include vocabulary support slides."
+"Adapt this lesson for Chinese ESL college students. Simplify academic language, add cultural context, include vocabulary support slides, and incorporate current developments in the field."
+
+"Enhance this presentation with current examples and trends. Make it more engaging for students by adding real-world applications happening now."
 ```
+
+**Combining Gamma with Grok:**
+1. Use Grok to research current trends and examples in your topic
+2. Input Grok's findings into Gamma prompts for current content
+3. Create presentations that blend academic concepts with real-time developments
+4. Use Gamma Agent to polish and enhance the current examples
 
 ---
 
@@ -775,12 +928,14 @@ Create an interactive review presentation for [topic]:
 - **U.S. Department of Education**: AI and the Future of Teaching and Learning (2023)
 - **ISTE**: Artificial Intelligence in Education (2024)
 - **China Ministry of Education**: Guidelines for AI in Education (2023)
+- **xAI**: Grok for Education - Best Practices Guide (2024)
 
 ### Key Research
 - Wei, J., et al. (2022). "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
 - Holmes, W., et al. (2023). "The Ethics of Artificial Intelligence in Education"
 - Yin Hong Cheah, et al. (2025). "Integrating generative artificial intelligence in K-12 education: Examining teachers' preparedness, practices, and barriers."
 - Li, S., et al. (2024). "AI-Assisted Language Learning in Chinese Educational Contexts"
+- Zhang, M., et al. (2024). "Real-Time AI in Educational Settings: Benefits and Challenges"
 
 ### Chinese AI and Education Resources
 - **DeepSeek Research**: Technical papers on AI reasoning and education applications
@@ -788,6 +943,11 @@ Create an interactive review presentation for [topic]:
 - **Moonshot AI**: Kimi long-context processing for educational materials
 - **Chinese AI Education Alliance**: Best practices for AI integration in Chinese schools
 
+### Real-Time AI Resources
+- **xAI Documentation**: Official guides for educational use of Grok
+- **Real-Time Learning Integration**: Studies on current events in education
+- **Information Currency in Education**: Best practices for using up-to-date content
+
 ---
 
-*Remember: AI is a powerful teaching tool, but human judgment, creativity, and relationship-building remain at the heart of great education. Use AI to enhance your teaching, not replace your professional expertise. In the Chinese educational context, AI should support both academic excellence in English and cultural identity development.*
+*Remember: AI is a powerful teaching tool, but human judgment, creativity, and relationship-building remain at the heart of great education. Use AI to enhance your teaching, not replace your professional expertise. In the Chinese educational context, AI should support both academic excellence in English and cultural identity development. Consider the balance between real-time information and established knowledge when integrating different AI tools.*
