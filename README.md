@@ -38,7 +38,7 @@ A practical, step-by-step guide to help teachers across all subjects use AI resp
 - [Module 7 - Teaching AI Literacy](#module-7---teaching-ai-literacy)
 - [Module 8 - Ethical Considerations & Safety](#module-8---ethical-considerations--safety)
 - [Module 9 - Ready-to-Use Prompts Library](#module-9---ready-to-use-prompts-library)
-- [Module 10 - Creating Presentations with Gamma and Gamma Agent](#module-10---creating-presentations-with-gamma-and-gamma-agent)
+- [Module 10 - Creating Effective PowerPoint Presentations with AI Tools](#module-10---creating-presentations-with-gamma-and-gamma-agent)
 - [References and Further Reading](#references-and-further-reading)
 
 ---
